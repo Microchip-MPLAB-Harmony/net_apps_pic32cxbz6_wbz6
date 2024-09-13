@@ -777,65 +777,65 @@ void BT_LC_Handler                 ( void );
 /* ************************************************************************** */
 /*  Event User IDs for Z653 */
 /* ************************************************************************** */
-#define EVENT_ID_USER_RTC_TAMPER                          0 /*  */
-#define EVENT_ID_USER_DMAC_CH_0                           1 /*  */
-#define EVENT_ID_USER_DMAC_CH_1                           2 /*  */
-#define EVENT_ID_USER_DMAC_CH_2                           3 /*  */
-#define EVENT_ID_USER_DMAC_CH_3                           4 /*  */
-#define EVENT_ID_USER_DMAC_CH_4                           5 /*  */
-#define EVENT_ID_USER_DMAC_CH_5                           6 /*  */
-#define EVENT_ID_USER_DMAC_CH_6                           7 /*  */
-#define EVENT_ID_USER_DMAC_CH_7                           8 /*  */
-#define EVENT_ID_USER_CM4_TRACE_START                     9 /*  */
-#define EVENT_ID_USER_CM4_TRACE_STOP                     10 /*  */
-#define EVENT_ID_USER_CM4_TRACE_TRIG                     11 /*  */
-#define EVENT_ID_USER_TCC0_EV0                           12 /*  */
-#define EVENT_ID_USER_TCC0_EV1                           13 /*  */
-#define EVENT_ID_USER_TCC0_MC0                           14 /*  */
-#define EVENT_ID_USER_TCC0_MC1                           15 /*  */
-#define EVENT_ID_USER_TCC0_MC2                           16 /*  */
-#define EVENT_ID_USER_TCC0_MC3                           17 /*  */
-#define EVENT_ID_USER_TCC0_MC4                           18 /*  */
-#define EVENT_ID_USER_TCC0_MC5                           19 /*  */
-#define EVENT_ID_USER_TCC1_EV0                           20 /*  */
-#define EVENT_ID_USER_TCC1_EV1                           21 /*  */
-#define EVENT_ID_USER_TCC1_MC0                           22 /*  */
-#define EVENT_ID_USER_TCC1_MC1                           23 /*  */
-#define EVENT_ID_USER_TCC1_MC2                           24 /*  */
-#define EVENT_ID_USER_TCC1_MC3                           25 /*  */
-#define EVENT_ID_USER_TCC1_MC4                           26 /*  */
-#define EVENT_ID_USER_TCC1_MC5                           27 /*  */
-#define EVENT_ID_USER_TCC2_EV0                           28 /*  */
-#define EVENT_ID_USER_TCC2_EV1                           29 /*  */
-#define EVENT_ID_USER_TCC2_MC0                           30 /*  */
-#define EVENT_ID_USER_TCC2_MC1                           31 /*  */
-#define EVENT_ID_USER_TC0_EVU                            32 /*  */
-#define EVENT_ID_USER_TC1_EVU                            33 /*  */
-#define EVENT_ID_USER_TC2_EVU                            34 /*  */
-#define EVENT_ID_USER_TC3_EVU                            35 /*  */
-#define EVENT_ID_USER_TC4_EVU                            36 /*  */
-#define EVENT_ID_USER_TC5_EVU                            37 /*  */
-#define EVENT_ID_USER_TC6_EVU                            38 /*  */
-#define EVENT_ID_USER_TC7_EVU                            39 /*  */
-#define EVENT_ID_USER_TC8_EVU                            40 /*  */
-#define EVENT_ID_USER_TC9_EVU                            41 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_5                       42 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_6                       43 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_7                       44 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_8                       45 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_9                       46 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_10                      47 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_11                      48 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_12                      49 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_13                      50 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_14                      51 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_15                      52 /*  */
-#define EVENT_ID_USER_ADCHS_TRIG_16                      53 /*  */
-#define EVENT_ID_USER_AC_SOC_0                           54 /*  */
-#define EVENT_ID_USER_AC_SOC_1                           55 /*  */
-#define EVENT_ID_USER_CCL_LUTIN_0                        56 /*  */
-#define EVENT_ID_USER_CCL_LUTIN_1                        57 /*  */
-#define EVENT_ID_USER_CVD_TRIGGER                        58 /*  */
+#define EVENT_ID_USER_RTC_TAMPER                          0 /* ID for RTC event user TAMPER */
+#define EVENT_ID_USER_DMAC_CH_0                           1 /* ID for DMAC event user CH_0 */
+#define EVENT_ID_USER_DMAC_CH_1                           2 /* ID for DMAC event user CH_1 */
+#define EVENT_ID_USER_DMAC_CH_2                           3 /* ID for DMAC event user CH_2 */
+#define EVENT_ID_USER_DMAC_CH_3                           4 /* ID for DMAC event user CH_3 */
+#define EVENT_ID_USER_DMAC_CH_4                           5 /* ID for DMAC event user CH_4 */
+#define EVENT_ID_USER_DMAC_CH_5                           6 /* ID for DMAC event user CH_5 */
+#define EVENT_ID_USER_DMAC_CH_6                           7 /* ID for DMAC event user CH_6 */
+#define EVENT_ID_USER_DMAC_CH_7                           8 /* ID for DMAC event user CH_7 */
+#define EVENT_ID_USER_CM4_TRACE_START                     9 /* ID for CM4 event user TRACE_START */
+#define EVENT_ID_USER_CM4_TRACE_STOP                     10 /* ID for CM4 event user TRACE_STOP */
+#define EVENT_ID_USER_CM4_TRACE_TRIG                     11 /* ID for CM4 event user TRACE_TRIG */
+#define EVENT_ID_USER_TCC0_EV0                           12 /* ID for TCC0 event user EV0 */
+#define EVENT_ID_USER_TCC0_EV1                           13 /* ID for TCC0 event user EV1 */
+#define EVENT_ID_USER_TCC0_MC0                           14 /* ID for TCC0 event user MC0 */
+#define EVENT_ID_USER_TCC0_MC1                           15 /* ID for TCC0 event user MC1 */
+#define EVENT_ID_USER_TCC0_MC2                           16 /* ID for TCC0 event user MC2 */
+#define EVENT_ID_USER_TCC0_MC3                           17 /* ID for TCC0 event user MC3 */
+#define EVENT_ID_USER_TCC0_MC4                           18 /* ID for TCC0 event user MC4 */
+#define EVENT_ID_USER_TCC0_MC5                           19 /* ID for TCC0 event user MC5 */
+#define EVENT_ID_USER_TCC1_EV0                           20 /* ID for TCC1 event user EV0 */
+#define EVENT_ID_USER_TCC1_EV1                           21 /* ID for TCC1 event user EV1 */
+#define EVENT_ID_USER_TCC1_MC0                           22 /* ID for TCC1 event user MC0 */
+#define EVENT_ID_USER_TCC1_MC1                           23 /* ID for TCC1 event user MC1 */
+#define EVENT_ID_USER_TCC1_MC2                           24 /* ID for TCC1 event user MC2 */
+#define EVENT_ID_USER_TCC1_MC3                           25 /* ID for TCC1 event user MC3 */
+#define EVENT_ID_USER_TCC1_MC4                           26 /* ID for TCC1 event user MC4 */
+#define EVENT_ID_USER_TCC1_MC5                           27 /* ID for TCC1 event user MC5 */
+#define EVENT_ID_USER_TCC2_EV0                           28 /* ID for TCC2 event user EV0 */
+#define EVENT_ID_USER_TCC2_EV1                           29 /* ID for TCC2 event user EV1 */
+#define EVENT_ID_USER_TCC2_MC0                           30 /* ID for TCC2 event user MC0 */
+#define EVENT_ID_USER_TCC2_MC1                           31 /* ID for TCC2 event user MC1 */
+#define EVENT_ID_USER_TC0_EVU                            32 /* ID for TC0 event user EVU */
+#define EVENT_ID_USER_TC1_EVU                            33 /* ID for TC1 event user EVU */
+#define EVENT_ID_USER_TC2_EVU                            34 /* ID for TC2 event user EVU */
+#define EVENT_ID_USER_TC3_EVU                            35 /* ID for TC3 event user EVU */
+#define EVENT_ID_USER_TC4_EVU                            36 /* ID for TC4 event user EVU */
+#define EVENT_ID_USER_TC5_EVU                            37 /* ID for TC5 event user EVU */
+#define EVENT_ID_USER_TC6_EVU                            38 /* ID for TC6 event user EVU */
+#define EVENT_ID_USER_TC7_EVU                            39 /* ID for TC7 event user EVU */
+#define EVENT_ID_USER_TC8_EVU                            40 /* ID for TC8 event user EVU */
+#define EVENT_ID_USER_TC9_EVU                            41 /* ID for TC9 event user EVU */
+#define EVENT_ID_USER_ADCHS_TRIG_5                       42 /* ID for ADCHS event user TRIG_5 */
+#define EVENT_ID_USER_ADCHS_TRIG_6                       43 /* ID for ADCHS event user TRIG_6 */
+#define EVENT_ID_USER_ADCHS_TRIG_7                       44 /* ID for ADCHS event user TRIG_7 */
+#define EVENT_ID_USER_ADCHS_TRIG_8                       45 /* ID for ADCHS event user TRIG_8 */
+#define EVENT_ID_USER_ADCHS_TRIG_9                       46 /* ID for ADCHS event user TRIG_9 */
+#define EVENT_ID_USER_ADCHS_TRIG_10                      47 /* ID for ADCHS event user TRIG_10 */
+#define EVENT_ID_USER_ADCHS_TRIG_11                      48 /* ID for ADCHS event user TRIG_11 */
+#define EVENT_ID_USER_ADCHS_TRIG_12                      49 /* ID for ADCHS event user TRIG_12 */
+#define EVENT_ID_USER_ADCHS_TRIG_13                      50 /* ID for ADCHS event user TRIG_13 */
+#define EVENT_ID_USER_ADCHS_TRIG_14                      51 /* ID for ADCHS event user TRIG_14 */
+#define EVENT_ID_USER_ADCHS_TRIG_15                      52 /* ID for ADCHS event user TRIG_15 */
+#define EVENT_ID_USER_ADCHS_TRIG_16                      53 /* ID for ADCHS event user TRIG_16 */
+#define EVENT_ID_USER_AC_SOC_0                           54 /* ID for AC event user SOC_0 */
+#define EVENT_ID_USER_AC_SOC_1                           55 /* ID for AC event user SOC_1 */
+#define EVENT_ID_USER_CCL_LUTIN_0                        56 /* ID for CCL event user LUTIN_0 */
+#define EVENT_ID_USER_CCL_LUTIN_1                        57 /* ID for CCL event user LUTIN_1 */
+#define EVENT_ID_USER_CVD_TRIGGER                        58 /* ID for CVD event user TRIGGER */
 
 #ifdef __cplusplus
 }

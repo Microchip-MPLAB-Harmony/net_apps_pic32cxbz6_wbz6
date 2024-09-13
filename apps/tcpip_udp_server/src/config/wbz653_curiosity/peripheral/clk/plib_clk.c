@@ -164,7 +164,7 @@ void CLOCK_Initialize( void )
     /* SPLLPOSTDIV1 = 1 */
     /* SPLLPOSTDIV2 = 0x1 */
     /* SPLL_BYP     = 0x3     */
-    CRU_REGS->CRU_SPLLCON = 0xc0010008U;
+    CRU_REGS->CRU_SPLLCON = 0xc0010108U;
 
     //wait for PLL Lock
     while((BTZBSYS_REGS -> BTZBSYS_SUBSYS_STATUS_REG1 & 0x03U) != 0x03U)
@@ -219,7 +219,7 @@ void CLOCK_Initialize( void )
 
     CFG_REGS->CFG_PMD1 = 0x200007e0;
     CFG_REGS->CFG_PMD2 = 0x0;
-    CFG_REGS->CFG_PMD3 = 0xf73fefe;
+    CFG_REGS->CFG_PMD3 = 0xd73fefe;
 
 
     // Change src_clk source to PLL CLK
@@ -234,13 +234,13 @@ void CLOCK_Initialize( void )
         /* Configure EPLL */
         /* EPLLBSWSEL   = 1MHz */
         /* EPLLPWDN     = PLL_ON */
-        /* EPLLPOSTDIV1 = 16 */
+        /* EPLLPOSTDIV1 = 24 */
         /* EPLLFLOCK    = NO_ASSERT */
         /* EPLLRST      = ASSERT */
-        /* EPLLFBDIV    = 50 */
+        /* EPLLFBDIV    = 75 */
         /* EPLLREFDIV   = 1 */
         /* EPLL_BYP     = NOT_BYPASS */
-        CRU_REGS->CRU_EPLLCON = 0x32902U;
+        CRU_REGS->CRU_EPLLCON = 0x1044b982U;
         CFG_REGS->CFG_CFGCON0SET = CFG_CFGCON0_EPLLHWMD_Msk;
 
     /* Lock system since done with clock configuration */

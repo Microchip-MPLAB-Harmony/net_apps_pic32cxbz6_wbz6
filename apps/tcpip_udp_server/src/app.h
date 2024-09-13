@@ -32,6 +32,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include "configuration.h"
+#include "definitions.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -48,7 +49,7 @@ extern "C" {
 // *****************************************************************************
 
 // *****************************************************************************
-/* Application states
+/* Application States
 
   Summary:
     Application states enumeration
@@ -61,10 +62,18 @@ extern "C" {
 typedef enum
 {
     /* Application's state machine's initial state. */
-    APP_STATE_INIT=0,
-    APP_STATE_SERVICE_TASKS,
-    /* TODO: Define states used by the application state machine. */
+    APP_TCPIP_WAIT_INIT,
 
+    /* In this state, the application waits for a IP Address */
+    APP_TCPIP_WAIT_FOR_IP,
+
+    APP_TCPIP_OPENING_SERVER,
+
+    APP_TCPIP_WAIT_FOR_CONNECTION,
+
+    APP_TCPIP_SERVING_CONNECTION,
+
+    APP_TCPIP_ERROR,
 } APP_STATES;
 
 
@@ -87,8 +96,11 @@ typedef struct
     APP_STATES state;
 
     /* TODO: Define any additional data used by the application. */
+    UDP_SOCKET              socket;
+
 
 } APP_DATA;
+
 
 // *****************************************************************************
 // *****************************************************************************
@@ -98,6 +110,7 @@ typedef struct
 /* These routines are called by drivers when certain events occur.
 */
 
+    
 // *****************************************************************************
 // *****************************************************************************
 // Section: Application Initialization and State Machine Functions

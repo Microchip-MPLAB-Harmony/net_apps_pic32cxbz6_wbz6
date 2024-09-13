@@ -1,4 +1,4 @@
-<config configName="default" projectName="wbz653_curiosity" configVersion="1.1" device="WBZ653" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.1">
+<config configName="wbz653_curiosity" projectName="tcpip_udp_server" configVersion="1.1" device="WBZ653" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.1">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -3064,7 +3064,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;618&quot; canvasWidth=&quot;714&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;GraphSettings canvasHeight=&quot;478&quot; canvasWidth=&quot;583&quot; dnOrder=&quot;0&quot;/&gt;
     &lt;PowerProfiles dnOrder=&quot;1&quot;&gt;
       &lt;Profile dnOrder=&quot;0&quot; id=&quot;profile0&quot; name=&quot;Main&quot;/&gt;
     &lt;/PowerProfiles&gt;
@@ -3082,25 +3082,25 @@
     &lt;/ComponentGraph&gt;
     &lt;ComponentGraph dnOrder=&quot;4&quot; id=&quot;DATA LINK LAYER&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
-        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;drvExtPhyLan8740&quot; x=&quot;300&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;drvGmac&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;drvMiim&quot; x=&quot;420&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;tcpipNetConfig&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;drvExtPhyLan8740&quot; x=&quot;289&quot; y=&quot;18&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;drvGmac&quot; x=&quot;183&quot; y=&quot;19&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;drvMiim&quot; x=&quot;398&quot; y=&quot;18&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;tcpipNetConfig&quot; x=&quot;10&quot; y=&quot;19&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
     &lt;ComponentGraph dnOrder=&quot;5&quot; id=&quot;NETWORK LAYER&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;tcpipArp&quot; x=&quot;160&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;tcpipIPv4&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;tcpipIcmp&quot; x=&quot;300&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;tcpipIPv4&quot; x=&quot;300&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;tcpipIcmp&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
     &lt;ComponentGraph dnOrder=&quot;6&quot; id=&quot;TCP/IP STACK&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;APPLICATION LAYER&quot; x=&quot;220&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;BASIC CONFIGURATION&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;DATA LINK LAYER&quot; x=&quot;230&quot; y=&quot;80&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;NETWORK LAYER&quot; x=&quot;580&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;DATA LINK LAYER&quot; x=&quot;390&quot; y=&quot;80&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;NETWORK LAYER&quot; x=&quot;230&quot; y=&quot;80&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;TRANSPORT LAYER&quot; x=&quot;400&quot; y=&quot;20&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
@@ -3111,18 +3111,18 @@
     &lt;/ComponentGraph&gt;
     &lt;ComponentGraph dnOrder=&quot;8&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
-        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;HarmonyCore&quot; x=&quot;170&quot; y=&quot;60&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;TCP/IP STACK&quot; x=&quot;571&quot; y=&quot;266&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;cmsis&quot; x=&quot;500&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;core&quot; x=&quot;400&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;dfp&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;evsys&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;sercom0&quot; x=&quot;45&quot; y=&quot;358&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;sys_command&quot; x=&quot;556&quot; y=&quot;132&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;sys_console&quot; x=&quot;315&quot; y=&quot;220&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;sys_debug&quot; x=&quot;572&quot; y=&quot;346&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;10&quot; id=&quot;sys_time&quot; x=&quot;313&quot; y=&quot;400&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;11&quot; id=&quot;tc0&quot; x=&quot;53&quot; y=&quot;506&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;HarmonyCore&quot; x=&quot;205&quot; y=&quot;60&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;TCP/IP STACK&quot; x=&quot;440&quot; y=&quot;242&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;cmsis&quot; x=&quot;0&quot; y=&quot;101&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;core&quot; x=&quot;0&quot; y=&quot;126&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;dfp&quot; x=&quot;0&quot; y=&quot;32&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;evsys&quot; x=&quot;0&quot; y=&quot;58&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;sercom0&quot; x=&quot;0&quot; y=&quot;223&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;sys_command&quot; x=&quot;441&quot; y=&quot;124&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;sys_console&quot; x=&quot;206&quot; y=&quot;159&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;sys_debug&quot; x=&quot;444&quot; y=&quot;320&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;10&quot; id=&quot;sys_time&quot; x=&quot;209&quot; y=&quot;329&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;11&quot; id=&quot;tc0&quot; x=&quot;0&quot; y=&quot;375&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
   &lt;/UserData&gt;
@@ -3244,93 +3244,12 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_29_DIR"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_29_DIR&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_29_FUNCTION_NAME"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_29_FUNCTION_NAME&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_29_FUNCTION_TYPE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_29_FUNCTION_TYPE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_29_LAT"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_29_LAT&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_29_MODE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_29_MODE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;User dnOrder=&quot;0&quot; value=&quot;DIGITAL&quot;/&gt;
     &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_30_DIR"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_30_DIR&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_30_FUNCTION_NAME"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_30_FUNCTION_NAME&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_30_FUNCTION_TYPE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_30_FUNCTION_TYPE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_30_MODE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_30_MODE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_30_PU"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_30_PU&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -3352,17 +3271,6 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_32_MODE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;User dnOrder=&quot;0&quot; value=&quot;DIGITAL&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_34_FUNCTION_TYPE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_34_FUNCTION_TYPE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;SERCOM0_PAD2 (in)&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -3391,48 +3299,12 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_37_DIR"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_37_DIR&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_37_FUNCTION_NAME"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_37_FUNCTION_NAME&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_37_FUNCTION_TYPE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_37_FUNCTION_TYPE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_37_MODE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_37_MODE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;User dnOrder=&quot;0&quot; value=&quot;DIGITAL&quot;/&gt;
     &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_37_PU"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_37_PU&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -3669,39 +3541,12 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_51_DIR"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_51_DIR&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_51_FUNCTION_NAME"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_51_FUNCTION_NAME&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_51_FUNCTION_TYPE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_51_FUNCTION_TYPE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;User dnOrder=&quot;0&quot; value=&quot;GMAC_GTX1&quot;/&gt;
     &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_51_LAT"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_51_LAT&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -3789,6 +3634,17 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;CONFIG_CHECON_PFMWS&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;4&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="CONFIG_SCOM0_HSEN"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;CONFIG_SCOM0_HSEN&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;DIRECT&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -3920,7 +3776,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;EPLLCON_EPLLFBDIV_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;50&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;75&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -3931,7 +3787,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;EPLLCON_EPLLPOSTDIV1_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;16&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;24&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -3944,6 +3800,15 @@
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;User dnOrder=&quot;0&quot; value=&quot;PLL_ON&quot;/&gt;
     &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="EPLLCON_EPLLREFDIV_VALUE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;EPLLCON_EPLLREFDIV_VALUE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -3964,7 +3829,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;EPLLCON_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;207106&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;4503938&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -3997,7 +3862,29 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;ETHCLK2&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;800000000&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1200000000&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="ETH_CLOCK_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;ETH_CLOCK_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="ETH_CLOCK_FREQUENCY"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;ETH_CLOCK_FREQUENCY&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;128000000&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -4052,7 +3939,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_ID_22_CHEN&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -4250,7 +4137,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PMD3_REG_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;259260158&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;225705726&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -4334,12 +4221,32 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SPLL1_FREQ"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SPLL1_FREQ&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;128000000&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SPLL2_FREQ"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;SPLL2_FREQ&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;8000000&quot;/&gt;
     &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SPLLCON_SPLLPOSTDIV1_VALUE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SPLLCON_SPLLPOSTDIV1_VALUE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -4360,7 +4267,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;SPLLCON_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;3221291016&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;3221291272&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -4422,39 +4329,6 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SYS_PORT_B_CNPU"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;SYS_PORT_B_CNPU&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SYS_PORT_B_LAT"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;SYS_PORT_B_LAT&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SYS_PORT_B_TRIS"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;SYS_PORT_B_TRIS&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SYS_PORT_D_ANSEL"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;SYS_PORT_D_ANSEL&quot;&gt;
@@ -4466,65 +4340,88 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SYS_PORT_E_CNPU"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SYS_PORT_PPS_OUTPUT_FUNCTION_0"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;SYS_PORT_E_CNPU&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SYS_PORT_E_LAT"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;SYS_PORT_E_LAT&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SYS_PORT_E_TRIS"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;SYS_PORT_E_TRIS&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SYS_PORT_PPS_INPUT_FUNCTION_0"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;SYS_PORT_PPS_INPUT_FUNCTION_0&quot;&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SYS_PORT_PPS_OUTPUT_FUNCTION_0&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
         &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
     &lt;Values dnOrder=&quot;1&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;53&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;18&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SYS_PORT_PPS_INPUT_PIN_0"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SYS_PORT_PPS_OUTPUT_PIN_0"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;SYS_PORT_PPS_INPUT_PIN_0&quot;&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SYS_PORT_PPS_OUTPUT_PIN_0&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
-      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+      &lt;KeyValuePairList dnOrder=&quot;0&quot; id=&quot;pairs&quot;&gt;
+        &lt;Pairs dnOrder=&quot;0&quot;&gt;
+          &lt;Pair description=&quot;RPD4G5R&quot; dnOrder=&quot;0&quot; key=&quot;RPD4&quot; value=&quot;RPD4G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPD5G6R&quot; dnOrder=&quot;1&quot; key=&quot;RPD5&quot; value=&quot;RPD5G6R&quot;/&gt;
+          &lt;Pair description=&quot;RPA10G5R&quot; dnOrder=&quot;2&quot; key=&quot;RPA10&quot; value=&quot;RPA10G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPD2G5R&quot; dnOrder=&quot;3&quot; key=&quot;RPD2&quot; value=&quot;RPD2G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPD3G4R&quot; dnOrder=&quot;4&quot; key=&quot;RPD3&quot; value=&quot;RPD3G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPC10G5R&quot; dnOrder=&quot;5&quot; key=&quot;RPC10&quot; value=&quot;RPC10G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPD0G5R&quot; dnOrder=&quot;6&quot; key=&quot;RPD0&quot; value=&quot;RPD0G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPA13G4R&quot; dnOrder=&quot;7&quot; key=&quot;RPA13&quot; value=&quot;RPA13G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPC11G5R&quot; dnOrder=&quot;8&quot; key=&quot;RPC11&quot; value=&quot;RPC11G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPD1G5R&quot; dnOrder=&quot;9&quot; key=&quot;RPD1&quot; value=&quot;RPD1G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPA14G4R&quot; dnOrder=&quot;10&quot; key=&quot;RPA14&quot; value=&quot;RPA14G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPA15G5R&quot; dnOrder=&quot;11&quot; key=&quot;RPA15&quot; value=&quot;RPA15G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPD6G3R&quot; dnOrder=&quot;12&quot; key=&quot;RPD6&quot; value=&quot;RPD6G3R&quot;/&gt;
+          &lt;Pair description=&quot;RPD7G4R&quot; dnOrder=&quot;13&quot; key=&quot;RPD7&quot; value=&quot;RPD7G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPC1G3R&quot; dnOrder=&quot;14&quot; key=&quot;RPC1&quot; value=&quot;RPC1G3R&quot;/&gt;
+          &lt;Pair description=&quot;RPC0G2R&quot; dnOrder=&quot;15&quot; key=&quot;RPC0&quot; value=&quot;RPC0G1R&quot;/&gt;
+          &lt;Pair description=&quot;RPC9G4R&quot; dnOrder=&quot;16&quot; key=&quot;RPC9&quot; value=&quot;RPC9G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPC7G4R&quot; dnOrder=&quot;17&quot; key=&quot;RPC7&quot; value=&quot;RPC7G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPC8G5R&quot; dnOrder=&quot;18&quot; key=&quot;RPC8&quot; value=&quot;RPC8G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPB15G5R&quot; dnOrder=&quot;19&quot; key=&quot;RPB15&quot; value=&quot;RPB15G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPB2G4R&quot; dnOrder=&quot;20&quot; key=&quot;RPB2&quot; value=&quot;RPB2G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPB3G4R&quot; dnOrder=&quot;21&quot; key=&quot;RPB3&quot; value=&quot;RPB3G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPB0G5R&quot; dnOrder=&quot;22&quot; key=&quot;RPB0&quot; value=&quot;RPB0G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPB1G3R&quot; dnOrder=&quot;23&quot; key=&quot;RPB1&quot; value=&quot;RPB1G3R&quot;/&gt;
+          &lt;Pair description=&quot;RPB10G5R&quot; dnOrder=&quot;24&quot; key=&quot;RPB10&quot; value=&quot;RPB10G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPB11G4R&quot; dnOrder=&quot;25&quot; key=&quot;RPB11&quot; value=&quot;RPB11G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPB12G2R&quot; dnOrder=&quot;26&quot; key=&quot;RPB12&quot; value=&quot;RPB12G2R&quot;/&gt;
+          &lt;Pair description=&quot;RPB13G3R&quot; dnOrder=&quot;27&quot; key=&quot;RPB13&quot; value=&quot;RPB13G3R&quot;/&gt;
+          &lt;Pair description=&quot;RPB14G5R&quot; dnOrder=&quot;28&quot; key=&quot;RPB14&quot; value=&quot;RPB14G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPB8G6R&quot; dnOrder=&quot;29&quot; key=&quot;RPB8&quot; value=&quot;RPB8G6R&quot;/&gt;
+          &lt;Pair description=&quot;RPB9G6R&quot; dnOrder=&quot;30&quot; key=&quot;RPB9&quot; value=&quot;RPB9G6R&quot;/&gt;
+          &lt;Pair description=&quot;RPB6G6R&quot; dnOrder=&quot;31&quot; key=&quot;RPB6&quot; value=&quot;RPB6G6R&quot;/&gt;
+          &lt;Pair description=&quot;RPB7G4R&quot; dnOrder=&quot;32&quot; key=&quot;RPB7&quot; value=&quot;RPB7G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPB4G5R&quot; dnOrder=&quot;33&quot; key=&quot;RPB4&quot; value=&quot;RPB4G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPB5G6R&quot; dnOrder=&quot;34&quot; key=&quot;RPB5&quot; value=&quot;RPB5G6R&quot;/&gt;
+          &lt;Pair description=&quot;RPA1G5R&quot; dnOrder=&quot;35&quot; key=&quot;RPA1&quot; value=&quot;RPA1G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPE5G6R&quot; dnOrder=&quot;36&quot; key=&quot;RPE5&quot; value=&quot;RPE5G6R&quot;/&gt;
+          &lt;Pair description=&quot;RPA2G4R&quot; dnOrder=&quot;37&quot; key=&quot;RPA2&quot; value=&quot;RPA2G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPE6G2R&quot; dnOrder=&quot;38&quot; key=&quot;RPE6&quot; value=&quot;RPE6G2R&quot;/&gt;
+          &lt;Pair description=&quot;RPE3G4R&quot; dnOrder=&quot;39&quot; key=&quot;RPE3&quot; value=&quot;RPE3G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPA0G4R&quot; dnOrder=&quot;40&quot; key=&quot;RPA0&quot; value=&quot;RPA0G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPE4G5R&quot; dnOrder=&quot;41&quot; key=&quot;RPE4&quot; value=&quot;RPE4G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPE1G4R&quot; dnOrder=&quot;42&quot; key=&quot;RPE1&quot; value=&quot;RPE1G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPE2G5R&quot; dnOrder=&quot;43&quot; key=&quot;RPE2&quot; value=&quot;RPE2G5R&quot;/&gt;
+          &lt;Pair description=&quot;RPE0G3R&quot; dnOrder=&quot;44&quot; key=&quot;RPE0&quot; value=&quot;RPE0G3R&quot;/&gt;
+          &lt;Pair description=&quot;RPA9G4R&quot; dnOrder=&quot;45&quot; key=&quot;RPA9&quot; value=&quot;RPA9G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPA7G6R&quot; dnOrder=&quot;46&quot; key=&quot;RPA7&quot; value=&quot;RPA7G6R&quot;/&gt;
+          &lt;Pair description=&quot;RPA8G4R&quot; dnOrder=&quot;47&quot; key=&quot;RPA8&quot; value=&quot;RPA8G4R&quot;/&gt;
+          &lt;Pair description=&quot;RPA5G6R&quot; dnOrder=&quot;48&quot; key=&quot;RPA5&quot; value=&quot;RPA5G6R&quot;/&gt;
+          &lt;Pair description=&quot;RPA6G6R&quot; dnOrder=&quot;49&quot; key=&quot;RPA6&quot; value=&quot;RPA6G6R&quot;/&gt;
+          &lt;Pair description=&quot;RPA3G6R&quot; dnOrder=&quot;50&quot; key=&quot;RPA3&quot; value=&quot;RPA3G6R&quot;/&gt;
+          &lt;Pair description=&quot;RPA4G5R&quot; dnOrder=&quot;51&quot; key=&quot;RPA4&quot; value=&quot;RPA4G5R&quot;/&gt;
+        &lt;/Pairs&gt;
+      &lt;/KeyValuePairList&gt;
+      &lt;Boolean dnOrder=&quot;1&quot; id=&quot;visible&quot;&gt;
         &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
     &lt;Values dnOrder=&quot;1&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;50&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;15&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -4597,11 +4494,11 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="USE_PPS_INPUT_0"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="USE_PPS_OUTPUT_0"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;USE_PPS_INPUT_0&quot;&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;USE_PPS_OUTPUT_0&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -4646,6 +4543,7 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;XC32_HEAP_SIZE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1024&quot;/&gt;
+      &lt;User dnOrder=&quot;1&quot; value=&quot;65536&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -6555,7 +6453,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom0&gt;
   &lt;sercom0 dnOrder=&quot;0&quot; id=&quot;USART_RXPO&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;2&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
     &lt;/Values&gt;
   &lt;/sercom0&gt;
 &lt;/sercom0&gt;
@@ -6665,7 +6563,7 @@
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
     &lt;Values dnOrder=&quot;1&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;512&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;4096&quot;/&gt;
     &lt;/Values&gt;
   &lt;/sercom0&gt;
 &lt;/sercom0&gt;
@@ -11120,911 +11018,911 @@
          <hash>8e35d8509552a4d1d6e6f123ad75694cf784a707f7dac592ed33b55121aa8e28</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\WBZ653.ld</file>
+         <file>..\src\config\wbz653_curiosity\WBZ653.ld</file>
          <hash>e3e29f584eea490af973d7d125fd75f3cfb5ac46c958c8f91ba476ae8635f734</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\configuration.h</file>
+         <file>..\src\config\wbz653_curiosity\configuration.h</file>
          <hash>802accbb20cac5073d005458f3a61d4b3621aafd5e6bca1a07d17a3b7bd87fbf</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\definitions.h</file>
+         <file>..\src\config\wbz653_curiosity\definitions.h</file>
          <hash>54a7965e5c779abc9ccfaa3fa952aabba38ddba035007b65155b017369b9a0c3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device.h</file>
+         <file>..\src\config\wbz653_curiosity\device.h</file>
          <hash>fc86b20d2a979af1c174c01e4e97e9b38bf52750d06371d67f205ea0788a7be0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device_cache.h</file>
+         <file>..\src\config\wbz653_curiosity\device_cache.h</file>
          <hash>e2914501b361bbc93a56d6915b1bf4fac00277e61f31fdee87a587bc15dea5b6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device_vectors.h</file>
+         <file>..\src\config\wbz653_curiosity\device_vectors.h</file>
          <hash>fb470f1dd39978749392bd6f10a7b983829f819c4c37b1db60b79ccd13da0235</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\driver.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\driver.h</file>
          <hash>042fdd289460dbddb8e805850af7e3ac9aea95468e37414959781ebc5b2f454d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\driver_common.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\driver_common.h</file>
          <hash>5217965f6720b4fdf717e99ce9df4f2c9fbd82bbbc9655847166d1eefa806fee</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\ethphy\drv_ethphy.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\ethphy\drv_ethphy.h</file>
          <hash>19c63b50d002ecffcdc302012af6515d876f3e7bf612acc749c97bf0d78d9207</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\ethphy\src\drv_ethphy_local.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\ethphy\src\drv_ethphy_local.h</file>
          <hash>3f19a0efd23df04cc9ba8e7359d01372236eed0688979ea00507b429c6c9c698</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\ethphy\src\dynamic\drv_ethphy.c</file>
+         <file>..\src\config\wbz653_curiosity\driver\ethphy\src\dynamic\drv_ethphy.c</file>
          <hash>3fc29b0d4f76eb0fbd4a7b4481e74cd710498a3def844af0de42daef7446d72f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\ethphy\src\dynamic\drv_extphy_lan8740.c</file>
+         <file>..\src\config\wbz653_curiosity\driver\ethphy\src\dynamic\drv_extphy_lan8740.c</file>
          <hash>3eddd602bb9431178a01bb3bf265929f755cbf2c57ec77b4b07b35f891db6862</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\ethphy\src\dynamic\drv_extphy_lan8740.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\ethphy\src\dynamic\drv_extphy_lan8740.h</file>
          <hash>2a1f8c02be53aaf3b2ac8ffc58040d78d5b7e96bd71e3be134acbfd3504ff38d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\ethphy\src\dynamic\drv_extphy_regs.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\ethphy\src\dynamic\drv_extphy_regs.h</file>
          <hash>8b304230ccee2b2aef3b92eef3c004c938e81432844db5fb0db127986a811e9f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\gmac\drv_gmac.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\gmac\drv_gmac.h</file>
          <hash>13156c8eece795451e315ceef5c981ef2a51c5f1276b558680abf32e641212d5</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\gmac\src\drv_gmac_local.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\gmac\src\drv_gmac_local.h</file>
          <hash>fd579111fc31dfbd27c9eeda465eaa51a2fc59c52b642bf54aa1134050e2fe8a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\gmac\src\dynamic\_gmac_dcpt_lists.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\gmac\src\dynamic\_gmac_dcpt_lists.h</file>
          <hash>519537782349dc1ba5154b6a9a34b54800893cbf029fb5930a7873ae48cac355</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\gmac\src\dynamic\drv_gmac.c</file>
+         <file>..\src\config\wbz653_curiosity\driver\gmac\src\dynamic\drv_gmac.c</file>
          <hash>de39e85812083898dc20722bd18a52224887a4c9c065736bf96621d7bceb6bc3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\gmac\src\dynamic\drv_gmac_lib.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\gmac\src\dynamic\drv_gmac_lib.h</file>
          <hash>647ad24596067684c74fe40b5b1ac29585f63e4edae3da354208f7a90cac2882</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\gmac\src\dynamic\drv_gmac_lib_pic32cxbz6.c</file>
+         <file>..\src\config\wbz653_curiosity\driver\gmac\src\dynamic\drv_gmac_lib_pic32cxbz6.c</file>
          <hash>6341e34ee24b9fcfbe2e95002dd2da1dc8fa94fe46bc5446392efab69622e126</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\gmac\src\dynamic\drv_gmac_lib_pic32cxbz6.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\gmac\src\dynamic\drv_gmac_lib_pic32cxbz6.h</file>
          <hash>3fcb3aad3f8444a6b68034106b27c1bb7c55fcb0877ef0c000af017a28ae0017</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\miim\drv_miim.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\miim\drv_miim.h</file>
          <hash>4971ff0f45a66f415f5435687b847568e7ee65697ccf25f97281d7036cd6f37a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\miim\src\drv_miim_local.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\miim\src\drv_miim_local.h</file>
          <hash>2788809a5707f44ba7f921e5ebb818cc14a3e38986a52638906d56074014fdad</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\miim\src\dynamic\drv_miim.c</file>
+         <file>..\src\config\wbz653_curiosity\driver\miim\src\dynamic\drv_miim.c</file>
          <hash>945c9461a8682e8096bef399f6fd2e0a5ef996783c9df3c74b8e4aa85d6f386f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\miim\src\dynamic\drv_miim_device.h</file>
+         <file>..\src\config\wbz653_curiosity\driver\miim\src\dynamic\drv_miim_device.h</file>
          <hash>4623fceab1f3a28961af6715e1733ed0ea37ef50c533a601d2262e728ab7e449</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\driver\miim\src\dynamic\drv_miim_pic32cxbz6.c</file>
+         <file>..\src\config\wbz653_curiosity\driver\miim\src\dynamic\drv_miim_pic32cxbz6.c</file>
          <hash>9a30380d196c30d2f2602073070e149424ac14bf032fd8492ca50a431fa3465d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\exceptions.c</file>
+         <file>..\src\config\wbz653_curiosity\exceptions.c</file>
          <hash>89852728a9a1cc4c9746839cc3caf5308b8698c0c30bf6bfbad0db9e552a387e</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\initialization.c</file>
-         <hash>19eebb51ad34d3f7ef0aa8cda6099f9b322861b12684336c64d7f8e5059023d5</hash>
+         <file>..\src\config\wbz653_curiosity\initialization.c</file>
+         <hash>a45c6fd8839e79fa8c8d3bd3ee7d09fe4a864319c9523efca6cbdd9a11f2d8f4</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\interrupts.c</file>
+         <file>..\src\config\wbz653_curiosity\interrupts.c</file>
          <hash>09aa150505dd3f5f8b73bc0d79ac1acae33027fcf3eac61e5f71fcd18ce025e4</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\interrupts.h</file>
+         <file>..\src\config\wbz653_curiosity\interrupts.h</file>
          <hash>676fd3e79aff4ca728b1117f882799662f0b909c0acfd7677a6474d6f3371b53</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\libc_syscalls.c</file>
+         <file>..\src\config\wbz653_curiosity\libc_syscalls.c</file>
          <hash>88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\arp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\arp.h</file>
          <hash>2a5925ed5186568c3339c61bf48c38ecfe05c640c39c49764d30381df6d667f4</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\berkeley_api.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\berkeley_api.h</file>
          <hash>b4b144c31e5e38532500d636fc5879a827af913ae35a664f0ebaeec31e279995</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\ddns.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\ddns.h</file>
          <hash>36fb562efeeebf87ca0fbeec4b6bbe47b65043b9fc77d0c9101c0f8f537310f2</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\dhcp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\dhcp.h</file>
          <hash>b4d999699bf15079ea9d3c907ac3cc77f3d0547b46b100413e58bc4530708559</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\dhcp_server.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\dhcp_server.h</file>
          <hash>f279952651872077220a00d12d182632c1d5fd7c9e301d199a00a078a9ba7ec5</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\dhcps.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\dhcps.h</file>
          <hash>660852a6a642b29f23ffcdab88fd8931adc1acae051288691247ecddecc2d3ac</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\dhcpv6.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\dhcpv6.h</file>
          <hash>002ee8f06c499ac64c216a6958c42a320e894890ebd623b64cb2512b1ce2ab42</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\dns.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\dns.h</file>
          <hash>1a1a176f26d2ec79ca6d6de7c55b59e535752dc2ca1b022895850073a47f58c7</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\dnss.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\dnss.h</file>
          <hash>0ef62bfa081036ae879120921ca97f1c3dedc71b2df2c1fbdd259c5fe5ba1a15</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\ftp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\ftp.h</file>
          <hash>0d7e99157c90c7b5ff125f0ac171de501e9a63c612a2e2f2b6eb918dd3687c29</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\ftpc.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\ftpc.h</file>
          <hash>2f94649ae9fa9ee66ad17c51050540ea2aa89ba42201027e13a9b47dc6dfd090</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\http.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\http.h</file>
          <hash>c624983fac1a910df704aea42e31de2dabf37e54f0994f36b945243d76fb69a9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\http_net.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\http_net.h</file>
          <hash>4428032129f5f2552a9a49e01d9734dc77d8859047cf88223eede6747fcdcdfd</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\icmp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\icmp.h</file>
          <hash>dc61712e7af63775ef2a6708c9b266dfd2528c09f34032cacc3561e101a210ed</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\icmpv6.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\icmpv6.h</file>
          <hash>09039db6d0ccddddb2d4639aedf266014f524e41270c1331f287e8dcc532f59f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\igmp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\igmp.h</file>
          <hash>fcd3d579e90c20763d0188b19a058e7f5c1a0694f9560c8cc8fdfff3c1a15ee9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\iperf.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\iperf.h</file>
          <hash>80ac05a9b7ad4f22d4923d4422d9c24261d3647149dcbca4a482830747899231</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\ipv4.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\ipv4.h</file>
          <hash>2287a5d9c73089b4adae100ce7783238fbb723519107b5b4b4f07d043d10269c</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\ipv6.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\ipv6.h</file>
          <hash>b675c4df60b778005ba0cde22d44a25d8baf0991f631747d9f377830f0271f1f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\lldp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\lldp.h</file>
          <hash>b0769b19a5152894f79985ef5c4cd2320ee8a53c24940e03e62ab4ad04d37760</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\nbns.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\nbns.h</file>
          <hash>46843c7ecdbbff465b2976c6e35951656773ae3ae633656806a6f7c6af8c3e37</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\ndp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\ndp.h</file>
          <hash>27988e8ea18ad08813d66056a83087d05017f02526f5e5d0c3992326c2a5093b</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\smtp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\smtp.h</file>
          <hash>79268ea631f733be1f34cab892fb9bb0d6e956652f805e5e96fd7d557c3129ba</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\smtpc.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\smtpc.h</file>
          <hash>26aebd0cd90ed0ddcec1445d7a50c23e77046c9bb641d0e97437b46718b02197</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\snmp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\snmp.h</file>
          <hash>79acfada1bce0998c6257c3ccaf201b25645b655c5d0abfc232fbe41222dc603</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\snmpv3.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\snmpv3.h</file>
          <hash>aceaa660e21a025148679aef5bebc1a162376392cf66736388dbe4bbecbe80ce</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\sntp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\sntp.h</file>
          <hash>6c32fdefdba112f694e75b0376e6c69a26bea5ff3bffd082a1a7218a4a8404d2</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\arp.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\arp.c</file>
          <hash>79977f34fd72ff71a5cd9c5bebd932d9cb5d5300a5b5c8a4a2a48e59cc006578</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\arp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\arp_manager.h</file>
          <hash>b36c7361ae4e158c5624c0c1d5f3360fed773608ef0e4f4d38e925b56d83c49c</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\arp_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\arp_private.h</file>
          <hash>b53a253dc9f43a0af3adec49e8f8a8a2172412e4e081dc9e1619593a5dfba5cb</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\berkeley_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\berkeley_manager.h</file>
          <hash>523b55a8af2a7783868f95c9529ad55d260daad19a2f59214c63654fa85b0ee5</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\common\helpers.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\common\helpers.h</file>
          <hash>0e107c845b72ae6c7fdc28b33038641e8412f6fae5e3900f3808eb972d0971c4</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\common\sys_fs_shell.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\common\sys_fs_shell.h</file>
          <hash>b285a8d34a0350d00ad36c741e993d6172f0242fa601b2ec7ada86b74a1838ff</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ddns_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ddns_manager.h</file>
          <hash>3a62ace23bb563afe9b01107eb47832164a7472dca4c5118cf550d1df537f769</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dhcp.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dhcp.c</file>
          <hash>6b3d6614093d49f79903d2b9e68028991d239c40927414d42fbabf20fae2a399</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dhcp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dhcp_manager.h</file>
          <hash>2a60482d99b8371831d90ad158d8933fe595c0bb1b2c8dbadd76a920d4807f0d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dhcp_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dhcp_private.h</file>
          <hash>239cf6740eedd49b616c0ed0d19a0e753d23ea39005ac45917cca0a739ea9c5c</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dhcp_server_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dhcp_server_manager.h</file>
          <hash>216856d708536e245ce8ef98235bd3b5cc68c83a67f75342268cff7323a771ac</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dhcp_server_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dhcp_server_private.h</file>
          <hash>f095fba0413f7cf9ff254b5e4f8a370b052bdf260e3859d261128ceccfcbbbfb</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dhcps_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dhcps_manager.h</file>
          <hash>0f7a5bec2beb400e1b90dc554784ae1275ec9f62800b69025d26e909eacb1245</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dhcps_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dhcps_private.h</file>
          <hash>5e8f0c30c2bc0abfe3ed2fd00fca8fa27f75980098f0dbc434ea793f4737497e</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dhcpv6_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dhcpv6_manager.h</file>
          <hash>653d735027668d1231a7d6f89c73b72a10660829024e3b5df42ce8b3643276d1</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dhcpv6_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dhcpv6_private.h</file>
          <hash>c8e4315fb00317b1f84f7a314a225c2c8fc501343db360dd5be5787ae4137baf</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dns.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dns.c</file>
          <hash>d210270bbfe63415ef2138313ac2a0917c60e27552f73336597588b96e3be8d8</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dns_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dns_manager.h</file>
          <hash>ef3c9db841410b7beb9bb7794a39ff338fb8f6e0fd160c49b862812e09bc2e05</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dns_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dns_private.h</file>
          <hash>f9f7f3018ecb8b718f967ab36a6c4d1f2b22180e7f2f43d22ec2a71287489e9d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dnss_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dnss_manager.h</file>
          <hash>7c9419689791597068d0a40cbbc4d8281b59432776fd422ac1b7b393a9511850</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\dnss_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\dnss_private.h</file>
          <hash>d0629ad93c122cce80217350161dabbae2907a9dc905cbacc3cf184254a740ff</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ftp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ftp_manager.h</file>
          <hash>8173e2062cc6b4bd599548beee5298b0fcf04e230056b1f54f98ecbc91c88784</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ftp_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ftp_private.h</file>
          <hash>a42ec714dc38f7d517ace7f368e95dc8c2fa20b1e67bc37389872b816c967c35</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ftpc_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ftpc_manager.h</file>
          <hash>076b13bd84433ad321df8539d713c01fe82f20052a06c025631283717c9de21b</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ftpc_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ftpc_private.h</file>
          <hash>17846a08f9b9c3a4b16075ac6e6f2d97a92e1c6edb0f4e081590f12900d8ab57</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\hash_fnv.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\hash_fnv.c</file>
          <hash>b443652acf5b7c6f357282a67cf62cf049b03589752896fa3b42d8ff601b2f81</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\hash_fnv.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\hash_fnv.h</file>
          <hash>08928a0c0ce1effbdfe3336a8daa5921a3334a850189f4c4d67c24836a173871</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\helpers.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\helpers.c</file>
          <hash>171aca38c18c6084dd53acca4f04d785f3429d8d056a62f86d6e176102646f6d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\http_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\http_manager.h</file>
          <hash>5129306edd8719cda3f78dc49cd50029be12f7783e37e96e3f124f855ee21cff</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\http_net_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\http_net_manager.h</file>
          <hash>c3c80b63abb3890947cc6ce34f899574ab30776a95fefd35a5f889d3e7a042b7</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\http_net_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\http_net_private.h</file>
          <hash>36fb9e49a443566c811f78458c5c29000e9eea061bdebe95175d7bcdb39b9015</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\http_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\http_private.h</file>
          <hash>8e6c8e33a14324cbd403e7c52718605bd27bf9f8b91667ab11acd045963a2dbc</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\icmp.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\icmp.c</file>
          <hash>38438bd4e94e1ff4f0a5f3b14eea2e9e9e4f6452b06e1f3717db6f703bd2df37</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\icmp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\icmp_manager.h</file>
          <hash>70c316280838197122c69fa9515cf596047ae269eb68d49226fed94b8bc71107</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\icmpv6_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\icmpv6_manager.h</file>
          <hash>338a01145ab84161193edad653158a8df061f48e4b4c3b3dcb31f00de8581af0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\igmp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\igmp_manager.h</file>
          <hash>d1271ea6b36b2bea3895a16cd2a856c75a0b226aaf17b181a7093059638e842c</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\igmp_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\igmp_private.h</file>
          <hash>311f7af0bacd7fb445ffddbacbee283213be2ebab27f551bdff06a54d4edce95</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\iperf_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\iperf_manager.h</file>
          <hash>d5c85239882095b3315acc278a01896025ddeacbcc666c9efa34bbba86f8befa</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ipv4.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ipv4.c</file>
          <hash>a267bbbf54e48ce952155e9c4f502a94b655e1f4be197117b8da8e153bbd0c3d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ipv4_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ipv4_manager.h</file>
          <hash>12bd9195ed8205033067fd9b2e80310244f3092e1dfc9662fe63bec9e54d76be</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ipv4_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ipv4_private.h</file>
          <hash>a9a39d02f1487eba918b7495828168de620d4e8701a2010aa94d0cbcebc99f51</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ipv6_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ipv6_manager.h</file>
          <hash>f452c104d1f0c9f2184b05e27daf96b52d2f93732c69b9a2f972ff4d86108c38</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ipv6_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ipv6_private.h</file>
          <hash>90dfa3f4e03e494a56721e74350ae9c8b1f02b95d233244a755f64e49e3eeae8</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\link_list.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\link_list.h</file>
          <hash>33d4d925cf813f96addd2909c3b6b4b05498d87261285879f02ff15f094579e9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\lldp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\lldp_manager.h</file>
          <hash>d3967ca15a4b719d8bcdea669342753846b965b1fbb5811bb8a71b218d7bfe7a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\lldp_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\lldp_private.h</file>
          <hash>59e4e71086c119db22699c5dced94ef420a741fbc5f984809b80e913ba85fd84</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\lldp_tlv.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\lldp_tlv.h</file>
          <hash>9630271cd5bdea8c31e41f1fb8e4a50c5d2942df7dafb04e33d3559915000810</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\nbns_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\nbns_manager.h</file>
          <hash>97d2623aed56415b2a16f134bee4254687b29762c116c1d4cddc3a2c9f418060</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ndp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ndp_manager.h</file>
          <hash>b659af82e14f5642d2d92d8895ebd11a8323803ab2d1c0570398424ff72d28d3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\ndp_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\ndp_private.h</file>
          <hash>b329e4d0b584e60c3b8546d3a4d6d98246d8dc08f383a065a829e56d80911b19</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\oahash.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\oahash.c</file>
          <hash>e277cdaf0043bd7317b73c47c7aca5b2051f7c6881d4d8184b146db507079bc8</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\oahash.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\oahash.h</file>
          <hash>1b97e6d4d9aa480e94b8d2641d7abbc52be867f5167c43410586d9b59d160151</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\smtp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\smtp_manager.h</file>
          <hash>f51e89d8c5e770f9cdfcb71d7d73bf4d113e093ac562d912ea52c595d86aa9b9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\smtpc_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\smtpc_manager.h</file>
          <hash>4a2e36d8bc850849640e76ee9bf19a3c2951b67c93aa3b607dcd7f6f4e9df3bc</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\smtpc_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\smtpc_private.h</file>
          <hash>0b0d82df59b40acf1a870988cb7c00ed91924df50486eaee9b080a78a808cafe</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\snmp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\snmp_manager.h</file>
          <hash>37207c958ca46436a35dee7711762f5cb49a9a70526d4372c50a7d9cf57720b7</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\snmp_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\snmp_private.h</file>
          <hash>413071246f81e5ed5641a299dc44173c1e23b685c932a263332cca9140a67694</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\snmpv3_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\snmpv3_private.h</file>
          <hash>2829d2d64b8dd0022f06f2dc93567cce8bc86c059130af2ea3028252b736a1f9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\sntp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\sntp_manager.h</file>
          <hash>d96139f5cd065f2755d0a7db815b9a55ab74709a06251561d3c8599a1868b113</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcp_manager.h</file>
          <hash>31347e98a4f9f641a63bc4910f5d560a1823176bc848db5b22e04244e5828949</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcp_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcp_private.h</file>
          <hash>6caadd47adc022fb7ed49c90fa97594397471a5c0fbbd81f8a5a2d85ad481746</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_announce_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_announce_manager.h</file>
          <hash>d300fe07c49c66a4b4c1ff62395b1e6723284a2a7b369f7b0a87522cf20584b8</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_commands.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_commands.c</file>
          <hash>bd191b1edf0eb4e2b48c781c8563f0036033a7d4a33cc2fc49651b4b3ddfb589</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_commands_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_commands_manager.h</file>
          <hash>98a35f037744933778e156089e8b3279f6c862d8b568230367424258344ece6d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_heap_alloc.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_heap_alloc.c</file>
          <hash>7ab13472426209131b5d72e6b7df64d3a038faf6574061d9ffdd3746d8cd7ad3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_heap_alloc.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_heap_alloc.h</file>
          <hash>79522d1b08d5a1e4467f316be1dec58fcf0699546ca6ecd99d9ad23ff95dfbf5</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_heap_internal.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_heap_internal.c</file>
          <hash>13ee6eb823fd4c7ad02c879fa490e69a722a255f2626499ab6ec6b672a04b779</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_helpers.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_helpers.c</file>
          <hash>01c815b30c11e011d30a60761ff0586213695c7405416ab90e2aab3ba4f38154</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_helpers_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_helpers_private.h</file>
          <hash>c1a9d58bb202ac83a85e9b79bb1d4ae9eaf585d6f6cd471fdadf433df47295d3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_mac_bridge_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_mac_bridge_manager.h</file>
          <hash>e5fedf559f32be814e26b0440a68547d7d0d1a4ee3d7abb4147904a0f5208cdf</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_mac_bridge_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_mac_bridge_private.h</file>
          <hash>8a616af6e5e81b37d32df4a326d20d6f52e91a2053211a6abf2ec9391ef2b2a3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_manager.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_manager.c</file>
          <hash>e9dec6713d48442e6ef68c99982c6ed4e971dbefc8d5f008c16ee406a77c21fe</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_manager_control.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_manager_control.h</file>
          <hash>f769f891208a7eec11876c1b6d40460623c84d937e8d25be2c41a914505708ea</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_module_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_module_manager.h</file>
          <hash>5b124a232ff36c186aea959c97d37783c75d69ca31126243dceab8b3ec0e15d2</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_notify.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_notify.c</file>
          <hash>0dd1355b6aae2c926dea12a2b636ac5e812f27ea41f10441e0f8c44e099b6b0b</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_notify.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_notify.h</file>
          <hash>36309e0534f4f0084d42ef24f1d8c3a17e68eb99e5c5fa108f746bf009ed7169</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_packet.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_packet.c</file>
          <hash>e0414e6148ed6f2f36c57a2c1e91c7d1a1c668e1a9d0ce45680c28e83ee759e3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_packet.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_packet.h</file>
          <hash>7e4c86b1f25d55a4f3db8c1c05db7847a86687c282e7f06c9307eb475418ec21</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_private.h</file>
          <hash>1e11420be638535cef683de9cf27103fb07836ff4c00fb2135abecaae67fb41a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_reboot_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_reboot_manager.h</file>
          <hash>92a485f506d4337dd5116a666126f8932fd78b2a16c87917d1314bc431ec364d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tcpip_types.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_types.h</file>
          <hash>4a3a76b1768c9d355ea2fd7618f2f66e4ecb0056cdacf4ac033ff3f9e8e17362</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\telnet_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\telnet_manager.h</file>
          <hash>261058ce6621821d0b4c15a1336e03f1bbaedd4dc5cb26c7ad32c11999b9a763</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tftpc_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tftpc_manager.h</file>
          <hash>6c57ebe32dcf6c666f74313e2003796b765ae2d58e1a765137e9105638201b9b</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tftpc_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tftpc_private.h</file>
          <hash>b6feabce316b6f47bbedaca0cec7a2e635bd72c554f53afa034aa25fed93a30d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tftps_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tftps_manager.h</file>
          <hash>ef35fbb123b0ef2298754c31888ae3a9c1895ca28b3ce5ec48be3e27ebf09ca9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\tftps_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tftps_private.h</file>
          <hash>fb32ab4d4d547a195c92154927e6ba049d2fb010eddaff6fb3a1d58c03d2fdf0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\udp.c</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\udp.c</file>
          <hash>86f5c342bb780dbb897afc351707a7c0cc96a56559b884fe4b5bb7dde466d431</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\udp_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\udp_manager.h</file>
          <hash>d7f37688e3e11ccb8eb937f7c7266bfb676e245b41ccd166fba9249e7b572c1d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\udp_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\udp_private.h</file>
          <hash>d45d62008b7e4978453c37e124a7205662558d4c0086ac03fab7b41990f3c9fa</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\zero_conf_helper.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\zero_conf_helper.h</file>
          <hash>613947ebb18d15f0775b6424a79df26f0f689d0a1f4f391c35e6abdb5b7f11a7</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\zero_conf_link_local_private.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\zero_conf_link_local_private.h</file>
          <hash>e73bc44e9dcd71d04fad4b7f08ef1292f5f4e76c6b22fef8cb557952f1fd0bf4</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\src\zero_conf_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\zero_conf_manager.h</file>
          <hash>00ff9e10f9ea9e0d0b5c55022c67179ebb72e2d1de3a82c3c6a7c4dcbc3c6f44</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcp.h</file>
          <hash>31a9ec2ee972cb503fa6782b5ec4d0a293602fd84d76c4d48a836c7c8a3294f7</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip.h</file>
          <hash>3915ed25813f0af1cf934f806b694645addfa93d12d8c6d2f9b71ea27e1223c0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip_announce.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_announce.h</file>
          <hash>6d887e28cee3ad9edf6ecd7d474fcbf0d19847e3c5280c76746a60d3793a117b</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip_commands.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_commands.h</file>
          <hash>ed5f61dfb43fc89fe3014cda860f06958a9a888484c101d325fa9baf0d5625b4</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip_common_ports.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_common_ports.h</file>
          <hash>9dfeb3210843a746c1322e58faac8c82275e970680ac51a3dc84102dd81a4196</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip_ethernet.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_ethernet.h</file>
          <hash>bd85e30057daab11d9fd829c985c1edb57a92f83120c5d8a7ede1f91f0efc065</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip_heap.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_heap.h</file>
          <hash>3f4ea368775f31ae699dd953e3dd0c21d7880fc24cd4ceb755f92f26cc22e211</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip_helpers.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_helpers.h</file>
          <hash>236891098e8a147014fa37589465bfabdbbe93c6abb2fd0cafee4a115270566b</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip_mac.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_mac.h</file>
          <hash>7137ed6478803b511ada20f717583d7168e680c784b6d6c42dbaa75e4b928ea1</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip_mac_bridge.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_mac_bridge.h</file>
          <hash>63799feb328729eae30b3734d3f413597dba2654cf7dc000ef33b0cab03ea430</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip_mac_object.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_mac_object.h</file>
          <hash>a2165601d592aace23bfc05e3b4d0df59517e4663cfe9821eba6f2b37a4465f9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip_manager.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_manager.h</file>
          <hash>2108c41f646378c23e612b7d52479ffabcb1bb07a999a0293e1c9aba00b8eab1</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tcpip_reboot.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_reboot.h</file>
          <hash>b8353b2a02e23a9a0bf72ec917dc8dde444fb199e3b74c53d8559990afad3065</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\telnet.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\telnet.h</file>
          <hash>7f80fc99f47777152b9ddc3dff27158761276a7bc8f3545f181c367e90378905</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tftpc.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tftpc.h</file>
          <hash>a65cfdad9f0d3856a703cc2fadd9e8390ea479978e79c1440144f382c3bd6e3f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\tftps.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\tftps.h</file>
          <hash>841b654fc46af5ce4175455a16df1d5f2b2848f3a0a036432f94256913789a44</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\udp.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\udp.h</file>
          <hash>29442924e56cb3a82e5973c04b23adca67a21ff4052876e12dc46e431e17f75d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\zero_conf_link_local.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\zero_conf_link_local.h</file>
          <hash>5c3dbdef6f4d2322880212e860fa9922a255519bbe438ab391b39f3e9160b6e6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\library\tcpip\zero_conf_multicast_dns.h</file>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\zero_conf_multicast_dns.h</file>
          <hash>f0df8b849afed8c3258e3006621c74f16bfb1522d5aff7a835217a73593a5eae</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\net_pres\pres\net_pres.h</file>
+         <file>..\src\config\wbz653_curiosity\net_pres\pres\net_pres.h</file>
          <hash>75bbd37e5ab74ad35093911307e1b7f68f73f6f2832020356abb59ffaee987d6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\net_pres\pres\net_pres_socketapi.h</file>
+         <file>..\src\config\wbz653_curiosity\net_pres\pres\net_pres_socketapi.h</file>
          <hash>af2046033292b8bdc87f5cbf8b558942c5eff0cb0742bd791020d974b0b86381</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\net_pres\pres\net_pres_socketapiconversion.h</file>
+         <file>..\src\config\wbz653_curiosity\net_pres\pres\net_pres_socketapiconversion.h</file>
          <hash>7486203d60a2a0b97834de1d5284312af0725727a5fec0b2a3fef9325ac25be0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\osal\osal.h</file>
+         <file>..\src\config\wbz653_curiosity\osal\osal.h</file>
          <hash>8404fbe44807fa0484ffb38843a72cb9af8e31c9c30bd1b2594e609b8ea317d9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\osal\osal_definitions.h</file>
+         <file>..\src\config\wbz653_curiosity\osal\osal_definitions.h</file>
          <hash>5f0a2513a093b6d228e2b50646b204923a82047335a47f3d35a2938309ab6f37</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\osal\osal_impl_basic.h</file>
+         <file>..\src\config\wbz653_curiosity\osal\osal_impl_basic.h</file>
          <hash>67ce72d34fd1e4dee0b6937fa026ab2c7bd285f82a24da09742c68333adaf0fc</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\clk\plib_clk.c</file>
-         <hash>b2da99f9742e96163bfe3f6aaa17e8fd414a5bd2caa9b1463e66eca233aa1c9f</hash>
+         <file>..\src\config\wbz653_curiosity\peripheral\clk\plib_clk.c</file>
+         <hash>a0a3a339205c18c48be72def21c7d3f1b5eca3cb44696632bf40f5424f7fcd69</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\clk\plib_clk.h</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\clk\plib_clk.h</file>
          <hash>2d1939a0da512a64fea40fffe4c2f30f2d3d16344591a807c5814fc1e67fcc01</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\cmcc\plib_cmcc.c</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\cmcc\plib_cmcc.c</file>
          <hash>3b03e762c5515130718e7694736be6c25984ff8078c84d21a3fb9eba54f68e5d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\cmcc\plib_cmcc.h</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\cmcc\plib_cmcc.h</file>
          <hash>89b940242bfa0ecdba3ac53666c5996e25fab712227d37d2d6881c8a86b5f497</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\evsys\plib_evsys.c</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\evsys\plib_evsys.c</file>
          <hash>171913270aa095f1e8ff9192995129ff7bab22e5c793c4223f9046802e69d1e6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\evsys\plib_evsys.h</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\evsys\plib_evsys.h</file>
          <hash>f7d08eb8162f271ce1db384c082586a6624e506aa7f502c64c4ab5a1aadac47d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\gpio\plib_gpio.c</file>
-         <hash>b6fa0ca3abc678ff39623efb29cd0646ffa98d234af3fc161e8d0bb359f4eefa</hash>
+         <file>..\src\config\wbz653_curiosity\peripheral\gpio\plib_gpio.c</file>
+         <hash>245eeeac12529de5394e63b0fb88eb8085144c6c2deaf78f67f5e0f226ac6234</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\gpio\plib_gpio.h</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\gpio\plib_gpio.h</file>
          <hash>810a90199c6fd33f88ae5bc894e7459c29206c894276aaeb745ab013c6936952</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\nvic\plib_nvic.c</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\nvic\plib_nvic.c</file>
          <hash>48d6168733edbc873113ef0ae13429ce742254d0b80c3ceec02b2926f3d023ae</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\nvic\plib_nvic.h</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\nvic\plib_nvic.h</file>
          <hash>9936ac782115af41003255283fa2f603f4ff2212d16275b7c80ea8d067a9e208</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom0_usart.c</file>
-         <hash>6ed1994e664e27df78ad50467e9936bbb3f9f4b0b7e26a5bc10b2ac8e0e84688</hash>
+         <file>..\src\config\wbz653_curiosity\peripheral\sercom\usart\plib_sercom0_usart.c</file>
+         <hash>46ba81056aa116d4644425507f7ae3d913410b931feb427d98f7daa551d73bcd</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom0_usart.h</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\sercom\usart\plib_sercom0_usart.h</file>
          <hash>0df2c338e8de7443bc597e108b579c4f29d23090bba433ebddf71d0eac3d218a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
          <hash>f19dafabe0928d60dd83d7e19f35889f200e3fbadff09e2f42523d320acf780a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\tc\plib_tc0.c</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\tc\plib_tc0.c</file>
          <hash>2c5a80b70d9ef871cb75b335c2a883df29653882dbb324b9befd4f5f80a78cd9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\tc\plib_tc0.h</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\tc\plib_tc0.h</file>
          <hash>c71eb1c99c9c3244b6d2a5030b97723a3d32d7a2c83c4ab2374c2e947e64b0c0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\tc\plib_tc_common.h</file>
+         <file>..\src\config\wbz653_curiosity\peripheral\tc\plib_tc_common.h</file>
          <hash>487b4f489229b8e16b24ab48ddc1f414b095585439f0e10d53b2285fc3979f63</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\startup_xc32.c</file>
+         <file>..\src\config\wbz653_curiosity\startup_xc32.c</file>
          <hash>95d22da03176bc3a797e2e56be702fe4776ce754d18448cd86ca42ccd4083e00</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\stdio\xc32_monitor.c</file>
+         <file>..\src\config\wbz653_curiosity\stdio\xc32_monitor.c</file>
          <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\sys_tasks.h</file>
+         <file>..\src\config\wbz653_curiosity\sys_tasks.h</file>
          <hash>21f254f497a18a024cd00128d06c4776c2643f867a460c1ba9880a7dd41a8d56</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\cache\sys_cache.c</file>
+         <file>..\src\config\wbz653_curiosity\system\cache\sys_cache.c</file>
          <hash>da28c09b0da0fdd6fb7064631c15c9197c78df33fcd17d742baef909830a320e</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\cache\sys_cache.h</file>
+         <file>..\src\config\wbz653_curiosity\system\cache\sys_cache.h</file>
          <hash>b4b3a4e7434759c9bbcd3c6a0ab97558eb2a007f083a4eb76dbedcb2e2c3d86b</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\command\src\sys_command.c</file>
+         <file>..\src\config\wbz653_curiosity\system\command\src\sys_command.c</file>
          <hash>84360285206bc304af70cc0b29fea061345ba6e27674613b5bb947da9fda0768</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\command\sys_command.h</file>
+         <file>..\src\config\wbz653_curiosity\system\command\sys_command.h</file>
          <hash>7ef4ded141f7f71e84038aa39c414929ee9cbd9cdacb92e06544f5bf53915dca</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\console\src\sys_console.c</file>
+         <file>..\src\config\wbz653_curiosity\system\console\src\sys_console.c</file>
          <hash>622a27844a650b4fa265c7a4739ba3768a76e4148600be42e44eec2e0673d7c6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\console\src\sys_console_local.h</file>
+         <file>..\src\config\wbz653_curiosity\system\console\src\sys_console_local.h</file>
          <hash>024a0b50ea2fea72b964b8209fb256b5df6693badd320485821e7912c5eebb25</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\console\src\sys_console_uart.c</file>
+         <file>..\src\config\wbz653_curiosity\system\console\src\sys_console_uart.c</file>
          <hash>ff3d1854f469e4fc41d96adce6f7ec38afad5d1b076c295eb4777936777673d0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\console\src\sys_console_uart.h</file>
+         <file>..\src\config\wbz653_curiosity\system\console\src\sys_console_uart.h</file>
          <hash>690c74d55c9204f3e3d621635257df1de1c89f097671a678c359f5e24461589a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\console\src\sys_console_uart_definitions.h</file>
+         <file>..\src\config\wbz653_curiosity\system\console\src\sys_console_uart_definitions.h</file>
          <hash>bf403c11673266a5a861fd99253c377030c1a7f9e912eef446101e416b4f8c9a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\console\sys_console.h</file>
+         <file>..\src\config\wbz653_curiosity\system\console\sys_console.h</file>
          <hash>cc82ba93f8d69bf31a9dfcfe1e425de3924bcf9e4e4b31f7efad9c2d062dcbf6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\debug\src\sys_debug.c</file>
+         <file>..\src\config\wbz653_curiosity\system\debug\src\sys_debug.c</file>
          <hash>474ee981d4285453a2ae9f1e4735c40129281931b89f579c3c413acdff1d8d26</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\debug\src\sys_debug_local.h</file>
+         <file>..\src\config\wbz653_curiosity\system\debug\src\sys_debug_local.h</file>
          <hash>d14855e54d4929ec6c9c3ea1e9de3fdc1711bb278fc27ab39079e9f16ecc87d5</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\debug\sys_debug.h</file>
+         <file>..\src\config\wbz653_curiosity\system\debug\sys_debug.h</file>
          <hash>4162d9e1fab93b8b33f6c8a24726f5dc287ea05c31e3ab984c3c920c725d0882</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\int\src\sys_int.c</file>
+         <file>..\src\config\wbz653_curiosity\system\int\src\sys_int.c</file>
          <hash>4281667cc2b84c9e4be1f0dfb3f7d42b77d36c5dcf6513d29ff40262f746cfc6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\int\sys_int.h</file>
+         <file>..\src\config\wbz653_curiosity\system\int\sys_int.h</file>
          <hash>dc104ae181fd5309e1bb42896246644fae95915a8e639b23ecfccc8840850274</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\int\sys_int_mapping.h</file>
+         <file>..\src\config\wbz653_curiosity\system\int\sys_int_mapping.h</file>
          <hash>5abf8528dabc1b17378f5d137870597037214fddf33880fa40e9263352da3008</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\reset\sys_reset.c</file>
+         <file>..\src\config\wbz653_curiosity\system\reset\sys_reset.c</file>
          <hash>e671888007ee4e0355beae1e361ff894dc2bc4fa0a4614d6975b18c5ce057181</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\reset\sys_reset.h</file>
+         <file>..\src\config\wbz653_curiosity\system\reset\sys_reset.h</file>
          <hash>962efce739387d25aacb5dc3aa90e90f216a478bcf19b57237540fd72bce2748</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\sys_random_h2_adapter.h</file>
+         <file>..\src\config\wbz653_curiosity\system\sys_random_h2_adapter.h</file>
          <hash>7a517a17efdaed2f4b05d64859e80b55968041ab805b73c34de17bead03727c1</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\sys_time_h2_adapter.c</file>
+         <file>..\src\config\wbz653_curiosity\system\sys_time_h2_adapter.c</file>
          <hash>256a5532300d89dcc7849da229c15b8b8b0e5674355d6d61a4f4afbcb516e820</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\sys_time_h2_adapter.h</file>
+         <file>..\src\config\wbz653_curiosity\system\sys_time_h2_adapter.h</file>
          <hash>2ef793c2575c80c0349edf97642dde832daa16b8ec9c162f9c39d527c8ee24b9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\system.h</file>
+         <file>..\src\config\wbz653_curiosity\system\system.h</file>
          <hash>2b75f8e370e5cb2c54f70da7351ee149f0d5a7673e700f39b373099716b31b55</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\system_common.h</file>
+         <file>..\src\config\wbz653_curiosity\system\system_common.h</file>
          <hash>c9f34bd226f8efab12f5766e77f8355996cd0430b50e0f6ee30258664c494984</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\system_module.h</file>
+         <file>..\src\config\wbz653_curiosity\system\system_module.h</file>
          <hash>96c74368801b0a7aaa25aec3ec2cb0d483250385f103ffc1ff64089b4ca2c6d9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\time\src\sys_time.c</file>
+         <file>..\src\config\wbz653_curiosity\system\time\src\sys_time.c</file>
          <hash>fa2d85ab967b80157caf8483f6e28a23b12b548844a1d80f2fef760cd9b99271</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\time\src\sys_time_local.h</file>
+         <file>..\src\config\wbz653_curiosity\system\time\src\sys_time_local.h</file>
          <hash>df56f970664902417d798760e44978cf4b84c108cf0761647a383e91db76980c</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\time\sys_time.h</file>
+         <file>..\src\config\wbz653_curiosity\system\time\sys_time.h</file>
          <hash>6357468f7670698b16bfb6439d9919ed38eba99d4f03277a8b43ac34586fa1b3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system\time\sys_time_definitions.h</file>
+         <file>..\src\config\wbz653_curiosity\system\time\sys_time_definitions.h</file>
          <hash>b8c332f36f8a6ed230dc25b1f9f7f2970699947567f80cb06534d405b7a0dd9d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system_config.h</file>
+         <file>..\src\config\wbz653_curiosity\system_config.h</file>
          <hash>d074f77e96777a5c66b7eb8b7180218b1115f19fb685b8d7a3882b87dbd4b28d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\system_definitions.h</file>
+         <file>..\src\config\wbz653_curiosity\system_definitions.h</file>
          <hash>0537e8562b5dfda1d120ff2fef6186fc71b1f7d8d964e14a6e3260fa5e8b7afd</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\tasks.c</file>
+         <file>..\src\config\wbz653_curiosity\tasks.c</file>
          <hash>92a798c48cfabeb494cbcce0847704252077ba3964405c4362e42c32b224f136</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\toolchain_specifics.h</file>
+         <file>..\src\config\wbz653_curiosity\toolchain_specifics.h</file>
          <hash>6fc0551b0fa3362678b3d7a227386fafa343140d31e4da3ad4af972e61cd0acb</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\user.h</file>
+         <file>..\src\config\wbz653_curiosity\user.h</file>
          <hash>451e0878e9fcf6cf9fab046c1452ea662757988346c7f39e6bc98478ca25f995</hash>
       </entry>
       <entry>
@@ -12061,7 +11959,7 @@
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h</file>
-         <hash>8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc</hash>
+         <hash>2de01ae2556a38eb82c389de23c701805ec63308cfbcf3f84cb12141589b0858</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm4.h</file>
@@ -12509,7 +12407,7 @@
       </entry>
       <entry>
          <file>..\src\packs\WBZ653_DFP\wbz653.h</file>
-         <hash>5ed2f77c3fa507230a6b3a501211258de153033e6240db85dbbfbcd8b7c7c92e</hash>
+         <hash>14e64dd73b84c959fdb7d0451351db176b3b2129fd3043acc21606ae06c0d408</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>

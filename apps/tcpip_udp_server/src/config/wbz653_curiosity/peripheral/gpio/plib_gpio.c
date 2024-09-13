@@ -69,7 +69,6 @@ void GPIO_Initialize ( void )
 
 
     /* PPS Input Remapping */
-    PPS_REGS->PPS_SCOM0P2R = 23U;
 
     /* PPS Output Remapping */
 

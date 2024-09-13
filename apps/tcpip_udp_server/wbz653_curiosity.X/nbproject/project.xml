@@ -3,15 +3,15 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>wbz653_curiosity</name>
-            <creation-uuid>99315072-4b76-472c-90cd-9cc9c02de51d</creation-uuid>
+            <name>tcpip_udp_server</name>
+            <creation-uuid>9607fe58-faff-462d-aef2-13cd5f53eea5</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList/>
             <confList>
                 <confElem>
-                    <name>default</name>
+                    <name>wbz653_curiosity</name>
                     <type>2</type>
                 </confElem>
             </confList>

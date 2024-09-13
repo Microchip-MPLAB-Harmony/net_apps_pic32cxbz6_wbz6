@@ -4,21 +4,21 @@
 
 
 project: tcpip_udp_server
-creation_date: 2024-09-05T19:36:47.773+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2024-09-13T08:40:39.795+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.5.1
 mcc_core_version: v5.7.1
 mplabx_version: v6.20        # if MPLAB X plugin only
 harmony_version: v1.5.2
-compiler: XC32 4.40
+compiler: XC32 4.45
 
 modules:
     - {name: "csp", version: "bigbuck_support"}
-    - {name: "core", version: "dev"}
-    - {name: "CMSIS_5", version: "master"}
+    - {name: "core", version: "v3.13.5"}
+    - {name: "CMSIS_5", version: "5.8.0"}
     - {name: "net", version: "niy_mh3_98479_bigbuck"}
 
 packs:
-    - {name: "PIC32CX-BZ6_DEV_DFP", version: "0.0.136"}
+    - {name: "PIC32CX-BZ6_DEV_DFP", version: "0.0.134"}
 
