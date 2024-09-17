@@ -86,6 +86,10 @@
          <string>class com.microchip.mcc.harmony.HarmonyModule</string>
       </entry>
       <entry>
+         <string>tcpipAnnounce</string>
+         <string>class com.microchip.mcc.harmony.HarmonyModule</string>
+      </entry>
+      <entry>
          <string>tcpipArp</string>
          <string>class com.microchip.mcc.harmony.HarmonyModule</string>
       </entry>
@@ -3064,14 +3068,15 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;478&quot; canvasWidth=&quot;583&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;GraphSettings canvasHeight=&quot;487&quot; canvasWidth=&quot;583&quot; dnOrder=&quot;0&quot;/&gt;
     &lt;PowerProfiles dnOrder=&quot;1&quot;&gt;
       &lt;Profile dnOrder=&quot;0&quot; id=&quot;profile0&quot; name=&quot;Main&quot;/&gt;
     &lt;/PowerProfiles&gt;
     &lt;ComponentGraph dnOrder=&quot;2&quot; id=&quot;APPLICATION LAYER&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
-        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;tcpipDhcp&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;tcpipDns&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;tcpipAnnounce&quot; x=&quot;340&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;tcpipDhcp&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;tcpipDns&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
     &lt;ComponentGraph dnOrder=&quot;3&quot; id=&quot;BASIC CONFIGURATION&quot;&gt;
@@ -7832,6 +7837,53 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="tcpipAnnounce" name="!@#harmonyAttachmentState"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;tcpipAnnounce&gt;
+  &lt;tcpipAnnounce dnOrder=&quot;0&quot;/&gt;
+&lt;/tcpipAnnounce&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="tcpipAnnounce" name="#&amp;__MCC_Group_Parrent_id"/>
+         <value>APPLICATION LAYER</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="tcpipAnnounce" name="TCPIP_ANNOUNCE_MAX_PAYLOAD"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;tcpipAnnounce&gt;
+  &lt;tcpipAnnounce dnOrder=&quot;0&quot; id=&quot;TCPIP_ANNOUNCE_MAX_PAYLOAD&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/tcpipAnnounce&gt;
+&lt;/tcpipAnnounce&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="tcpipAnnounce" name="TCPIP_ANNOUNCE_NETWORK_DIRECTED_BCAST"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;tcpipAnnounce&gt;
+  &lt;tcpipAnnounce dnOrder=&quot;0&quot; id=&quot;TCPIP_ANNOUNCE_NETWORK_DIRECTED_BCAST&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/tcpipAnnounce&gt;
+&lt;/tcpipAnnounce&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="tcpipAnnounce" name="TCPIP_ANNOUNCE_TASK_RATE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;tcpipAnnounce&gt;
+  &lt;tcpipAnnounce dnOrder=&quot;0&quot; id=&quot;TCPIP_ANNOUNCE_TASK_RATE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/tcpipAnnounce&gt;
+&lt;/tcpipAnnounce&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="tcpipAnnounce" name="TCPIP_USE_ANNOUNCE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;tcpipAnnounce&gt;
+  &lt;tcpipAnnounce dnOrder=&quot;0&quot; id=&quot;TCPIP_USE_ANNOUNCE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/tcpipAnnounce&gt;
+&lt;/tcpipAnnounce&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="tcpipArp" name="!@#harmonyAttachmentState"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;tcpipArp&gt;
   &lt;tcpipArp dnOrder=&quot;0&quot;/&gt;
@@ -11023,11 +11075,11 @@
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\configuration.h</file>
-         <hash>802accbb20cac5073d005458f3a61d4b3621aafd5e6bca1a07d17a3b7bd87fbf</hash>
+         <hash>42eb799bbdd79fea4df05d6f47763f291ef3aac75235d23cf6937a46c8747878</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\definitions.h</file>
-         <hash>54a7965e5c779abc9ccfaa3fa952aabba38ddba035007b65155b017369b9a0c3</hash>
+         <hash>8028218e27ea12920b52e80f886d2eadf516e00f874a65bad6e62b9e5fcd2f09</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\device.h</file>
@@ -11127,7 +11179,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\initialization.c</file>
-         <hash>a45c6fd8839e79fa8c8d3bd3ee7d09fe4a864319c9523efca6cbdd9a11f2d8f4</hash>
+         <hash>0aaf29be93d61f8b2f043807405278241669196375e2eac722703518e8b40a05</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\interrupts.c</file>
@@ -11494,6 +11546,10 @@
          <hash>6caadd47adc022fb7ed49c90fa97594397471a5c0fbbd81f8a5a2d85ad481746</hash>
       </entry>
       <entry>
+         <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_announce.c</file>
+         <hash>1d09ec0b5a6230034e1294c911f4583a7273988c56e35dbb1001cd490f318c15</hash>
+      </entry>
+      <entry>
          <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_announce_manager.h</file>
          <hash>d300fe07c49c66a4b4c1ff62395b1e6723284a2a7b369f7b0a87522cf20584b8</hash>
       </entry>
@@ -11563,7 +11619,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_private.h</file>
-         <hash>1e11420be638535cef683de9cf27103fb07836ff4c00fb2135abecaae67fb41a</hash>
+         <hash>c91779d08bfb47727d199b8052e52b4653debd2327383bfa750ffed0e781c4ad</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\library\tcpip\src\tcpip_reboot_manager.h</file>
@@ -11623,7 +11679,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip.h</file>
-         <hash>3915ed25813f0af1cf934f806b694645addfa93d12d8c6d2f9b71ea27e1223c0</hash>
+         <hash>d4eaeb376fec24209aed7b0db2cdf69aa26546da209b04949c4b09f5beb4a77f</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\library\tcpip\tcpip_announce.h</file>
