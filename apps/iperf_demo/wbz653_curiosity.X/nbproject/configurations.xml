@@ -623,6 +623,7 @@
                 <itemPath>../src/config/wbz653_curiosity/library/tcpip/src/tcpip_heap_internal.c</itemPath>
                 <itemPath>../src/config/wbz653_curiosity/library/tcpip/src/iperf.c</itemPath>
                 <itemPath>../src/config/wbz653_curiosity/library/tcpip/src/tcp.c</itemPath>
+                <itemPath>../src/config/wbz653_curiosity/library/tcpip/src/tcpip_announce.c</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -1214,7 +1215,7 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="1000000-2007ffff"/>
         <property key="programmerToGoFilePath"
-                  value="C:/harmony/h3/BigBuck/net_apps_pic32cxbz6_wbz6/apps/iperf_demo/wbz653_curiosity.X/debug/wbz653_curiosity/wbz653_curiosity_ptg"/>
+                  value="C:/harmony/h3/net_apps_pic32cxbz6_wbz6/apps/iperf_demo/wbz653_curiosity.X/debug/wbz653_curiosity/wbz653_curiosity_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
