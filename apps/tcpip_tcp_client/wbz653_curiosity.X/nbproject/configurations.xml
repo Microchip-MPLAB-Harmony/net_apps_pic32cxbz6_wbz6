@@ -1076,7 +1076,7 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="1000000-2007ffff"/>
         <property key="programmerToGoFilePath"
-                  value="C:/harmony/h3/net_apps_pic32cxbz6_wbz6/apps/tcpip_tcp_client/wbz653_curiosity.X/debug/wbz653_curiosity/wbz653_curiosity_ptg"/>
+                  value="C:/harmony/h3/BigBuck/net_apps_pic32cxbz6_wbz6/apps/fahad/tcpip_udp_server/wbz653_curiosity.X/debug/wbz653_curiosity/wbz653_curiosity_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
