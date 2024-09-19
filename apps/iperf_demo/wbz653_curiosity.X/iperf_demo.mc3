@@ -3786,6 +3786,17 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="EPLLCON_ECLKOUTEN_VALUE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;EPLLCON_ECLKOUTEN_VALUE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;Enable&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="EPLLCON_EPLLBSWSEL_VALUE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;EPLLCON_EPLLBSWSEL_VALUE&quot;&gt;
@@ -3854,7 +3865,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;EPLLCON_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;4503938&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;272939394&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -13141,7 +13152,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\peripheral\clk\plib_clk.c</file>
-         <hash>a0a3a339205c18c48be72def21c7d3f1b5eca3cb44696632bf40f5424f7fcd69</hash>
+         <hash>cf21de1211c98ff2e0e44d28cd7c8e56eec465393b57211bb051d496969df6b2</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\peripheral\clk\plib_clk.h</file>
