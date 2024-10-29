@@ -17,13 +17,13 @@
  *
  */
 
-/* file generated from device description file (ATDF) version 2024-07-18T20:17:01Z */
-#ifndef _WBZ65_USBCORE_INSTANCE_
-#define _WBZ65_USBCORE_INSTANCE_
+/* file generated from device description file (ATDF) version 2024-09-25T20:48:23Z */
+#ifndef _WBZ65_USB_INSTANCE_
+#define _WBZ65_USB_INSTANCE_
 
 
-/* ========== Instance Parameter definitions for USBCORE peripheral ========== */
-#define USBCORE_USB_FPB_ADDRH                    (0xfff)    
-#define USBCORE_USB_FPB_ADDRL                    (0)        
+/* ========== Instance Parameter definitions for USB peripheral ========== */
+#define USB_FPB_ADDRH                            (0xfff)    
+#define USB_FPB_ADDRL                            (0)        
 
-#endif /* _WBZ65_USBCORE_INSTANCE_ */
+#endif /* _WBZ65_USB_INSTANCE_ */
