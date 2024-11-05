@@ -243,7 +243,7 @@ void CLOCK_Initialize( void )
         /* EPLLFBDIV    = 75 */
         /* EPLLREFDIV   = 1 */
         /* EPLL_BYP     = NOT_BYPASS */
-        CRU_REGS->CRU_EPLLCON = 0x1044b982U;
+        CRU_REGS->CRU_EPLLCON = 0x1044b182U;
         CFG_REGS->CFG_CFGCON0SET = CFG_CFGCON0_EPLLHWMD_Msk;
 
     /* Lock system since done with clock configuration */
