@@ -562,6 +562,7 @@ void SYS_Initialize ( void* data )
 
     SERCOM0_USART_Initialize();
 
+	BSP_Initialize();
 
 
     /* MISRAC 2012 deviation block start */

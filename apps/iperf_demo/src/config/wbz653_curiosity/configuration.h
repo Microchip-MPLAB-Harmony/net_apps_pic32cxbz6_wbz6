@@ -233,6 +233,7 @@ extern "C" {
 
 /* Network Configuration Index 0 */
 #define TCPIP_NETWORK_DEFAULT_INTERFACE_NAME_IDX0 "ETH"
+#define TCPIP_IF_PIC32CXBZ6_ETH 
 
 #define TCPIP_NETWORK_DEFAULT_HOST_NAME_IDX0              "MCHPBOARD_ETH"
 #define TCPIP_NETWORK_DEFAULT_MAC_ADDR_IDX0               "00:04:25:1C:A0:02"
@@ -405,6 +406,7 @@ extern "C" {
 
 
 #define DRV_LAN8740_PHY_CONFIG_FLAGS       ( 0 \
+                                                    | DRV_ETHPHY_CFG_RMII \
                                                     )
                                                     
 #define DRV_LAN8740_PHY_LINK_INIT_DELAY            500
