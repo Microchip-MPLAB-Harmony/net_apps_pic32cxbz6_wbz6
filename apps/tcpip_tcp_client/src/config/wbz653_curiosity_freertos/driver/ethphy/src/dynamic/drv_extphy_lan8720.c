@@ -1,5 +1,5 @@
 /*******************************************************************************
-  LAN8740 PHY API for Microchip TCP/IP Stack
+  LAN8720 PHY API for Microchip TCP/IP Stack
 *******************************************************************************/
 
 /*
@@ -25,21 +25,22 @@ implied, are granted under any patent or other intellectual property rights of
 Microchip or any third party.
 */
 
+
 #include "driver/ethphy/src/drv_ethphy_local.h"
 
-#include "driver/ethphy/src/dynamic/drv_extphy_lan8740.h"
-
+#include "driver/ethphy/src/dynamic/drv_extphy_lan8720.h"
 
 /****************************************************************************
  *                 interface functions
  ****************************************************************************/
+
 
 /****************************************************************************
  * Function:        DRV_EXTPHY_MIIConfigure
  *
  * PreCondition:    - Communication to the PHY should have been established.
  *
- * Input:           handle - A valid open-instance handle, returned from the driver's open routine   
+ * Input:           handle - A valid open-instance handle, returned from the driver's open routine
  *                  cFlags - the requested configuration flags: DRV_ETHPHY_CFG_RMII/DRV_ETHPHY_CFG_MII
  *
  * Output:          DRV_ETHPHY_RES_OK - operation completed successfully
@@ -54,102 +55,11 @@ Microchip or any third party.
  *
  * Overview:        This function configures the PHY in one of MII/RMII operation modes.
  *
+ * Note:            LAN8720 supports RMII  mode only!
  *****************************************************************************/
-static DRV_ETHPHY_RESULT DRV_EXTPHY_MIIConfigure(const DRV_ETHPHY_OBJECT_BASE* pBaseObj, DRV_HANDLE hClientObj,DRV_ETHPHY_CONFIG_FLAGS cFlags)
+static DRV_ETHPHY_RESULT DRV_EXTPHY_MIIConfigure(const DRV_ETHPHY_OBJECT_BASE* pBaseObj, DRV_HANDLE hClientObj, DRV_ETHPHY_CONFIG_FLAGS cFlags)
 {
-    union
-    {
-        uint32_t    w;
-        struct
-        {
-            uint16_t low;
-            uint16_t high;
-        };
-    }vendorData;
-
-    uint16_t    phyReg = 0;
-    uint16_t    miiConfPhase = 0;
-    int         phyAddress = 0;
-
-    DRV_ETHPHY_RESULT res = pBaseObj->DRV_ETHPHY_VendorDataGet(hClientObj, &vendorData.w);
-
-    if(res < 0)
-    {   // some error occurred
-        return res;
-    }
-
-    miiConfPhase = vendorData.low;
-
-    pBaseObj->DRV_ETHPHY_PhyAddressGet(hClientObj, DRV_ETHPHY_INF_IDX_ALL_EXTERNAL, &phyAddress);
-
-    switch(miiConfPhase)
-    {
-        case 0:
-            res = pBaseObj->DRV_ETHPHY_VendorSMIReadStart(hClientObj, PHY_REG_SPECIAL_MODE, phyAddress);
-            if(res < 0)
-            {   // some error
-                return res;
-            }
-            else if(res == DRV_ETHPHY_RES_PENDING)
-            {   // retry
-                return DRV_ETHPHY_RES_PENDING;
-            }
-            
-            // advance to the next phase
-            pBaseObj->DRV_ETHPHY_VendorDataSet(hClientObj, ++miiConfPhase);
-            return DRV_ETHPHY_RES_PENDING;
-
-        case 1:
-            res = pBaseObj->DRV_ETHPHY_VendorSMIReadResultGet(hClientObj, &phyReg);
-            if(res < 0)
-            {   // some error
-                return res;
-            }
-            else if(res == DRV_ETHPHY_RES_PENDING)
-            {   // retry
-                return DRV_ETHPHY_RES_PENDING;
-            }
-
-            // got PHY_REG_SPECIAL_MODE result
-            // not used bits should be 0
-            phyReg &= _SPECIALMODE_PHYAD_MASK | _SPECIALMODE_MODE_MASK;
-            if(cFlags & DRV_ETHPHY_CFG_RMII)
-            {
-                phyReg |= _SPECIALMODE_MIIMODE_MASK;
-            }
-            else
-            {
-                phyReg &= ~_SPECIALMODE_MIIMODE_MASK;
-            }
-
-            // save value for the next state
-            vendorData.low = miiConfPhase + 1;
-            vendorData.high = phyReg;
-            pBaseObj->DRV_ETHPHY_VendorDataSet(hClientObj, vendorData.w);
-            return DRV_ETHPHY_RES_PENDING;
-
-        case 2:
-            phyReg = vendorData.high;
-            // update the Special Modes reg
-            res = pBaseObj->DRV_ETHPHY_VendorSMIWriteStart(hClientObj, PHY_REG_SPECIAL_MODE, phyReg, phyAddress);
-            if(res < 0)
-            {   // some error
-                return res;
-            }
-            else if(res == DRV_ETHPHY_RES_PENDING)
-            {   // retry
-                return DRV_ETHPHY_RES_PENDING;
-            }
-
-            // done    
-            return DRV_ETHPHY_RES_OK;
-
-
-        default:
-            // shouldn't happen
-            return DRV_ETHPHY_RES_OPERATION_ERR; 
-    }
-
+    return (cFlags & DRV_ETHPHY_CFG_RMII) ? DRV_ETHPHY_RES_OK : DRV_ETHPHY_RES_CFG_ERR;
 }
 
 
@@ -277,7 +187,9 @@ static DRV_ETHPHY_RESULT DRV_EXTPHY_MDIXConfigure(const DRV_ETHPHY_OBJECT_BASE* 
             // shouldn't happen
             return DRV_ETHPHY_RES_OPERATION_ERR; 
     }
+
 }
+
 
 /****************************************************************************
  * Function:        DRV_EXTPHY_SMIClockGet
@@ -303,7 +215,7 @@ static unsigned int DRV_EXTPHY_SMIClockGet(const DRV_ETHPHY_OBJECT_BASE* pBaseOb
 
 // the DRV_ETHPHY_OBJECT
 
-const DRV_ETHPHY_OBJECT  DRV_ETHPHY_OBJECT_LAN8740 = 
+const DRV_ETHPHY_OBJECT  DRV_ETHPHY_OBJECT_LAN8720 = 
 {
     .miiConfigure = DRV_EXTPHY_MIIConfigure,
     .mdixConfigure = DRV_EXTPHY_MDIXConfigure,

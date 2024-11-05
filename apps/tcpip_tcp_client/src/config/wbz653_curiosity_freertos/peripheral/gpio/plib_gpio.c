@@ -58,14 +58,23 @@
 */
 void GPIO_Initialize ( void )
 {
+    /* Disable JTAG since at least one of its pins is configured for Non-JTAG function */
+    CFG_REGS->CFG_CFGCON0CLR = CFG_CFGCON0_JTAGEN_Msk;
     /* PORTA Initialization */
     GPIOA_REGS->GPIO_ANSELCLR = 0x4000U; /* Digital Mode Enable */
     /* PORTB Initialization */
-    GPIOB_REGS->GPIO_ANSELCLR = 0x8U; /* Digital Mode Enable */
+    GPIOB_REGS->GPIO_LAT = 0x80U; /* Initial Latch Value */
+    GPIOB_REGS->GPIO_TRISCLR = 0x80U; /* Direction Control */
+    GPIOB_REGS->GPIO_ANSELCLR = 0x88U; /* Digital Mode Enable */
     /* PORTC Initialization */
+    GPIOC_REGS->GPIO_LAT = 0x0U; /* Initial Latch Value */
+    GPIOC_REGS->GPIO_TRISCLR = 0x480U; /* Direction Control */
+    GPIOC_REGS->GPIO_ANSELCLR = 0x80U; /* Digital Mode Enable */
     /* PORTD Initialization */
     GPIOD_REGS->GPIO_ANSELCLR = 0xc0U; /* Digital Mode Enable */
     /* PORTE Initialization */
+    GPIOE_REGS->GPIO_LAT = 0x0U; /* Initial Latch Value */
+    GPIOE_REGS->GPIO_TRISCLR = 0x1U; /* Direction Control */
 
 
     /* PPS Input Remapping */
