@@ -17,18 +17,18 @@
  *
  */
 
-/* file generated from device description file (ATDF) version 2024-07-18T20:17:01Z */
+/*  file generated from device description file (ATDF) version 2024-09-25T20:48:23Z  */
 #ifndef _WBZ65_ZIGBEE_COMPONENT_H_
 #define _WBZ65_ZIGBEE_COMPONENT_H_
 
 /* ************************************************************************** */
-/*   SOFTWARE API DEFINITION FOR ZIGBEE                                       */
+/*                     SOFTWARE API DEFINITION FOR ZIGBEE                     */
 /* ************************************************************************** */
 
-/** \brief ZIGBEE register offsets definitions */
+/* ZIGBEE register offsets definitions */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
-/** \brief No register API structure defined for ZIGBEE */
+/* No register API structure defined for ZIGBEE */
 typedef void Zigbee;
 
 

@@ -17,7 +17,7 @@
  *
  */
 
-/* file generated from device description file (ATDF) version 2024-07-18T20:17:01Z */
+/* file generated from device description file (ATDF) version 2024-09-25T20:48:23Z */
 #ifndef _WBZ65_SERCOM5_INSTANCE_
 #define _WBZ65_SERCOM5_INSTANCE_
 

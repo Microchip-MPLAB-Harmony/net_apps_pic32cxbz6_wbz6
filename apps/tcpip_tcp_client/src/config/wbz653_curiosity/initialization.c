@@ -168,7 +168,7 @@ const TCPIP_MODULE_MAC_PIC32C_CONFIG tcpipETHInitData;
 static const DRV_MIIM_INIT drvMiimInitData_0;
 
 /* Forward declaration of PHY initialization data */
-const DRV_ETHPHY_INIT tcpipPhyInitData_LAN8740;
+const DRV_ETHPHY_INIT tcpipPhyInitData_LAN8720;
 
 
 
@@ -406,10 +406,10 @@ const TCPIP_MODULE_MAC_PIC32C_CONFIG tcpipETHInitData =
        .txPrioNumToQueIndx = txPrioNumToQueIndxEth,
        .rxPrioNumToQueIndx = rxPrioNumToQueIndxEth,
        .ethFlags               = TCPIP_ETH_ETH_OPEN_FLAGS,    
-       .linkInitDelay          = DRV_LAN8740_PHY_LINK_INIT_DELAY,
+       .linkInitDelay          = DRV_LAN8720_PHY_LINK_INIT_DELAY,
        .ethModuleId            = TCPIP_ETH_MODULE_ID,
        .pPhyBase               = &DRV_ETHPHY_OBJECT_BASE_Default,
-       .pPhyInit               = &tcpipPhyInitData_LAN8740,
+       .pPhyInit               = &tcpipPhyInitData_LAN8720,
        .checksumOffloadRx      = DRV_ETH_RX_CHKSM_OFFLOAD,
        .checksumOffloadTx      = DRV_ETH_TX_CHKSM_OFFLOAD,
        .macTxPrioNum           = TCPIP_ETH_TX_PRIO_COUNT,
@@ -424,22 +424,22 @@ static const DRV_MIIM_INIT drvMiimInitData_0 =
    .miimId = DRV_MIIM_ETH_MODULE_ID_0,
 };
 
-/*** LAN8740 PHY Driver Time-Out Initialization Data ***/
-DRV_ETHPHY_TMO drvlan8740Tmo = 
+/*** LAN8720 PHY Driver Time-Out Initialization Data ***/
+DRV_ETHPHY_TMO drvlan8720Tmo = 
 {
-    .resetTmo = DRV_ETHPHY_LAN8740_RESET_CLR_TMO,
-    .aNegDoneTmo = DRV_ETHPHY_LAN8740_NEG_DONE_TMO,
-    .aNegInitTmo = DRV_ETHPHY_LAN8740_NEG_INIT_TMO,    
+    .resetTmo = DRV_ETHPHY_LAN8720_RESET_CLR_TMO,
+    .aNegDoneTmo = DRV_ETHPHY_LAN8720_NEG_DONE_TMO,
+    .aNegInitTmo = DRV_ETHPHY_LAN8720_NEG_INIT_TMO,    
 };
 
 /*** ETH PHY Initialization Data ***/
-const DRV_ETHPHY_INIT tcpipPhyInitData_LAN8740 =
+const DRV_ETHPHY_INIT tcpipPhyInitData_LAN8720 =
 {    
-    .ethphyId               = DRV_LAN8740_PHY_PERIPHERAL_ID,
-    .phyAddress             = DRV_LAN8740_PHY_ADDRESS,
-    .phyFlags               = DRV_LAN8740_PHY_CONFIG_FLAGS,
-    .pPhyObject             = &DRV_ETHPHY_OBJECT_LAN8740,
-    .ethphyTmo              = &drvlan8740Tmo,
+    .ethphyId               = DRV_LAN8720_PHY_PERIPHERAL_ID,
+    .phyAddress             = DRV_LAN8720_PHY_ADDRESS,
+    .phyFlags               = DRV_LAN8720_PHY_CONFIG_FLAGS,
+    .pPhyObject             = &DRV_ETHPHY_OBJECT_LAN8720,
+    .ethphyTmo              = &drvlan8720Tmo,
     .pMiimObject            = &DRV_MIIM_OBJECT_BASE_Default,
     .pMiimInit              = &drvMiimInitData_0,
     .miimIndex              = 0,
@@ -561,6 +561,7 @@ void SYS_Initialize ( void* data )
 
     EVSYS_Initialize();
 
+	BSP_Initialize();
 
 
     /* MISRAC 2012 deviation block start */

@@ -17,13 +17,13 @@
  *
  */
 
-/* file generated from device description file (ATDF) version 2024-07-18T20:17:01Z */
+/*  file generated from device description file (ATDF) version 2024-09-25T20:48:23Z  */
 #ifndef _WBZ653_GPIO_H_
 #define _WBZ653_GPIO_H_
 
-/* ========== Peripheral I/O pin numbers ========== */
+/* ======================= Peripheral I/O pin numbers ======================= */
 
-/* ========== Peripheral I/O masks ========== */
+/* ========================== Peripheral I/O masks ========================== */
 
 
 #endif /* _WBZ653_GPIO_H_ */

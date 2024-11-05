@@ -8,6 +8,9 @@
         <logicalFolder name="wbz653_curiosity"
                        displayName="wbz653_curiosity"
                        projectFiles="true">
+          <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
+            <itemPath>../src/config/wbz653_curiosity/bsp/bsp.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="crypto" displayName="crypto" projectFiles="true">
             <itemPath>../src/config/wbz653_curiosity/crypto/crypto.h</itemPath>
           </logicalFolder>
@@ -15,8 +18,8 @@
             <logicalFolder name="ethphy" displayName="ethphy" projectFiles="true">
               <logicalFolder name="src" displayName="src" projectFiles="true">
                 <logicalFolder name="dynamic" displayName="dynamic" projectFiles="true">
-                  <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_extphy_lan8740.h</itemPath>
                   <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_extphy_regs.h</itemPath>
+                  <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_extphy_lan8720.h</itemPath>
                 </logicalFolder>
                 <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/drv_ethphy_local.h</itemPath>
               </logicalFolder>
@@ -289,7 +292,6 @@
             <itemPath>../src/packs/WBZ653_DFP/component/nvm.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/component/cmcc.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/component/pmu.h</itemPath>
-            <itemPath>../src/packs/WBZ653_DFP/component/usbcore.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/component/pac.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/component/tcc.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/component/adchs.h</itemPath>
@@ -327,6 +329,7 @@
             <itemPath>../src/packs/WBZ653_DFP/component/cfg.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/component/dac_ctrl.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/component/ramecc.h</itemPath>
+            <itemPath>../src/packs/WBZ653_DFP/component/usb.h</itemPath>
           </logicalFolder>
           <logicalFolder name="instance" displayName="instance" projectFiles="true">
             <itemPath>../src/packs/WBZ653_DFP/instance/freqm.h</itemPath>
@@ -363,7 +366,6 @@
             <itemPath>../src/packs/WBZ653_DFP/instance/ccl.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/instance/tc4.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/instance/sercom2.h</itemPath>
-            <itemPath>../src/packs/WBZ653_DFP/instance/usbcore.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/instance/rtc.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/instance/can1.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/instance/evsys.h</itemPath>
@@ -394,6 +396,7 @@
             <itemPath>../src/packs/WBZ653_DFP/instance/tc0.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/instance/sercom6.h</itemPath>
             <itemPath>../src/packs/WBZ653_DFP/instance/efuse.h</itemPath>
+            <itemPath>../src/packs/WBZ653_DFP/instance/usb.h</itemPath>
           </logicalFolder>
           <logicalFolder name="pio" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/WBZ653_DFP/pio/wbz653.h</itemPath>
@@ -572,6 +575,9 @@
         <logicalFolder name="wbz653_curiosity"
                        displayName="wbz653_curiosity"
                        projectFiles="true">
+          <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
+            <itemPath>../src/config/wbz653_curiosity/bsp/bsp.c</itemPath>
+          </logicalFolder>
           <logicalFolder name="crypto" displayName="crypto" projectFiles="true">
             <itemPath>../src/config/wbz653_curiosity/crypto/src/crypto.c</itemPath>
           </logicalFolder>
@@ -579,8 +585,8 @@
             <logicalFolder name="ethphy" displayName="ethphy" projectFiles="true">
               <logicalFolder name="src" displayName="src" projectFiles="true">
                 <logicalFolder name="dynamic" displayName="dynamic" projectFiles="true">
-                  <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_extphy_lan8740.c</itemPath>
                   <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_ethphy.c</itemPath>
+                  <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_extphy_lan8720.c</itemPath>
                 </logicalFolder>
               </logicalFolder>
             </logicalFolder>
@@ -810,8 +816,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
+        <pack name="PIC32CX-BZ6_DFP" vendor="Microchip" version="1.0.2"/>
         <pack name="CMSIS" vendor="ARM" version="5.8.0"/>
-        <pack name="PIC32CX-BZ6_DEV_DFP" vendor="Microchip" version="0.0.139"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -1076,7 +1082,7 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="1000000-2007ffff"/>
         <property key="programmerToGoFilePath"
-                  value="C:/harmony/h3/BigBuck/net_apps_pic32cxbz6_wbz6/apps/fahad/tcpip_udp_server/wbz653_curiosity.X/debug/wbz653_curiosity/wbz653_curiosity_ptg"/>
+                  value="C:/harmony/h3/net_apps_pic32cxbz6_wbz6/apps/tcpip_tcp_client/wbz653_curiosity.X/debug/wbz653_curiosity/wbz653_curiosity_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
