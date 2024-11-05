@@ -18,8 +18,8 @@
             <logicalFolder name="ethphy" displayName="ethphy" projectFiles="true">
               <logicalFolder name="src" displayName="src" projectFiles="true">
                 <logicalFolder name="dynamic" displayName="dynamic" projectFiles="true">
-                  <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_extphy_lan8740.h</itemPath>
                   <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_extphy_regs.h</itemPath>
+                  <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_extphy_lan8720.h</itemPath>
                 </logicalFolder>
                 <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/drv_ethphy_local.h</itemPath>
               </logicalFolder>
@@ -584,8 +584,8 @@
             <logicalFolder name="ethphy" displayName="ethphy" projectFiles="true">
               <logicalFolder name="src" displayName="src" projectFiles="true">
                 <logicalFolder name="dynamic" displayName="dynamic" projectFiles="true">
-                  <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_extphy_lan8740.c</itemPath>
                   <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_ethphy.c</itemPath>
+                  <itemPath>../src/config/wbz653_curiosity/driver/ethphy/src/dynamic/drv_extphy_lan8720.c</itemPath>
                 </logicalFolder>
               </logicalFolder>
             </logicalFolder>

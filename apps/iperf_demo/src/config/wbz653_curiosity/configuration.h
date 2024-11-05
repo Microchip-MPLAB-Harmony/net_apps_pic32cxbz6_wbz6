@@ -405,16 +405,16 @@ extern "C" {
 #define TCPIP_UDP_EXTERN_PACKET_PROCESS   false
 
 
-#define DRV_LAN8740_PHY_CONFIG_FLAGS       ( 0 \
+#define DRV_LAN8720_PHY_CONFIG_FLAGS       ( 0 \
                                                     | DRV_ETHPHY_CFG_RMII \
                                                     )
                                                     
-#define DRV_LAN8740_PHY_LINK_INIT_DELAY            500
-#define DRV_LAN8740_PHY_ADDRESS                    0
-#define DRV_LAN8740_PHY_PERIPHERAL_ID              ETH_BASE_ADDRESS
-#define DRV_ETHPHY_LAN8740_NEG_INIT_TMO            1
-#define DRV_ETHPHY_LAN8740_NEG_DONE_TMO            2000
-#define DRV_ETHPHY_LAN8740_RESET_CLR_TMO           500
+#define DRV_LAN8720_PHY_LINK_INIT_DELAY            500
+#define DRV_LAN8720_PHY_ADDRESS                    0
+#define DRV_LAN8720_PHY_PERIPHERAL_ID              ETH_BASE_ADDRESS
+#define DRV_ETHPHY_LAN8720_NEG_INIT_TMO            1
+#define DRV_ETHPHY_LAN8720_NEG_DONE_TMO            2000
+#define DRV_ETHPHY_LAN8720_RESET_CLR_TMO           500
 
 
 

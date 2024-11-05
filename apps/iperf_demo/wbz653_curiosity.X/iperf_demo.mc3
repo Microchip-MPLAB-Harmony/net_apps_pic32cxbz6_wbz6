@@ -46,7 +46,7 @@
          <string>class com.microchip.mcc.harmony.HarmonyModule</string>
       </entry>
       <entry>
-         <string>drvExtPhyLan8740</string>
+         <string>drvExtPhyLan8720</string>
          <string>class com.microchip.mcc.harmony.HarmonyModule</string>
       </entry>
       <entry>
@@ -3562,7 +3562,7 @@
     &lt;/ComponentGraph&gt;
     &lt;ComponentGraph dnOrder=&quot;4&quot; id=&quot;DATA LINK LAYER&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
-        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;drvExtPhyLan8740&quot; x=&quot;289&quot; y=&quot;18&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;drvExtPhyLan8720&quot; x=&quot;289&quot; y=&quot;18&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;drvGmac&quot; x=&quot;183&quot; y=&quot;19&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;drvMiim&quot; x=&quot;398&quot; y=&quot;18&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;tcpipNetConfig&quot; x=&quot;10&quot; y=&quot;19&quot;/&gt;
@@ -5425,11 +5425,11 @@
          <value>__ROOTVIEW</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="!@#harmonyAttachmentState"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="!@#harmonyAttachmentState"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot;&gt;
     &lt;Attachments dnOrder=&quot;0&quot;&gt;
-      &lt;DirectCapability dnOrder=&quot;0&quot; id=&quot;libdrvExtPhyLan8740&quot;&gt;
+      &lt;DirectCapability dnOrder=&quot;0&quot; id=&quot;libdrvExtPhyLan8720&quot;&gt;
         &lt;Attributes dnOrder=&quot;0&quot;&gt;
           &lt;String dnOrder=&quot;0&quot; id=&quot;targetComponentID&quot;&gt;
             &lt;Value dnOrder=&quot;0&quot;&gt;drvGmac&lt;/Value&gt;
@@ -5440,142 +5440,142 @@
         &lt;/Attributes&gt;
       &lt;/DirectCapability&gt;
     &lt;/Attachments&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="#&amp;__MCC_Group_Parrent_id"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="#&amp;__MCC_Group_Parrent_id"/>
          <value>DATA LINK LAYER</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="DRV_ETHPHY_CLIENTS_NUMBER"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_CLIENTS_NUMBER&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="DRV_ETHPHY_CLIENTS_NUMBER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_CLIENTS_NUMBER&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="DRV_ETHPHY_INDEX"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_INDEX&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="DRV_ETHPHY_INDEX"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_INDEX&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="DRV_ETHPHY_INSTANCES_NUMBER"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_INSTANCES_NUMBER&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="DRV_ETHPHY_INSTANCES_NUMBER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_INSTANCES_NUMBER&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="DRV_ETHPHY_MAC_NAME"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_MAC_NAME&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="DRV_ETHPHY_MAC_NAME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_MAC_NAME&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drvExtPhyLan8740&quot; value=&quot;ETH&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drvExtPhyLan8720&quot; value=&quot;ETH&quot;/&gt;
     &lt;/Values&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="DRV_ETHPHY_NEG_DONE_TMO"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_NEG_DONE_TMO&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="DRV_ETHPHY_NEG_DONE_TMO"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_NEG_DONE_TMO&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="DRV_ETHPHY_NEG_INIT_TMO"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_NEG_INIT_TMO&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="DRV_ETHPHY_NEG_INIT_TMO"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_NEG_INIT_TMO&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="DRV_ETHPHY_PERIPHERAL_ID"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_PERIPHERAL_ID&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="DRV_ETHPHY_PERIPHERAL_ID"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_PERIPHERAL_ID&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drvExtPhyLan8740&quot; value=&quot;ETH_BASE_ADDRESS&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drvExtPhyLan8720&quot; value=&quot;ETH_BASE_ADDRESS&quot;/&gt;
     &lt;/Values&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="DRV_ETHPHY_RESET_CALLBACK"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_RESET_CALLBACK&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="DRV_ETHPHY_RESET_CALLBACK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_RESET_CALLBACK&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="DRV_ETHPHY_RESET_CLR_TMO"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_RESET_CLR_TMO&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="DRV_ETHPHY_RESET_CLR_TMO"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_RESET_CLR_TMO&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="DRV_ETHPHY_USE_RESET_CALLBACK"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_USE_RESET_CALLBACK&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="DRV_ETHPHY_USE_RESET_CALLBACK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;DRV_ETHPHY_USE_RESET_CALLBACK&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="TCPIP_EMAC_PHY_TYPE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;TCPIP_EMAC_PHY_TYPE&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="TCPIP_EMAC_PHY_TYPE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;TCPIP_EMAC_PHY_TYPE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="TCPIP_INTMAC_PHY_ADDRESS"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;TCPIP_INTMAC_PHY_ADDRESS&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="TCPIP_INTMAC_PHY_ADDRESS"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;TCPIP_INTMAC_PHY_ADDRESS&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="TCPIP_INTMAC_PHY_CONFIG_RMII"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;TCPIP_INTMAC_PHY_CONFIG_RMII&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="TCPIP_INTMAC_PHY_CONFIG_RMII"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;TCPIP_INTMAC_PHY_CONFIG_RMII&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8740" name="TCPIP_INTMAC_PHY_LINK_INIT_DELAY"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8740&gt;
-  &lt;drvExtPhyLan8740 dnOrder=&quot;0&quot; id=&quot;TCPIP_INTMAC_PHY_LINK_INIT_DELAY&quot;&gt;
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvExtPhyLan8720" name="TCPIP_INTMAC_PHY_LINK_INIT_DELAY"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvExtPhyLan8720&gt;
+  &lt;drvExtPhyLan8720 dnOrder=&quot;0&quot; id=&quot;TCPIP_INTMAC_PHY_LINK_INIT_DELAY&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drvExtPhyLan8740&gt;
-&lt;/drvExtPhyLan8740&gt;
+  &lt;/drvExtPhyLan8720&gt;
+&lt;/drvExtPhyLan8720&gt;
 </value>
       </entry>
       <entry>
@@ -5586,10 +5586,10 @@
       &lt;DirectDependency dnOrder=&quot;0&quot; id=&quot;ETH_PHY_Dependency&quot;&gt;
         &lt;Attributes dnOrder=&quot;0&quot;&gt;
           &lt;String dnOrder=&quot;0&quot; id=&quot;targetComponentID&quot;&gt;
-            &lt;Value dnOrder=&quot;0&quot;&gt;drvExtPhyLan8740&lt;/Value&gt;
+            &lt;Value dnOrder=&quot;0&quot;&gt;drvExtPhyLan8720&lt;/Value&gt;
           &lt;/String&gt;
           &lt;String dnOrder=&quot;1&quot; id=&quot;targetAttachmentID&quot;&gt;
-            &lt;Value dnOrder=&quot;0&quot;&gt;libdrvExtPhyLan8740&lt;/Value&gt;
+            &lt;Value dnOrder=&quot;0&quot;&gt;libdrvExtPhyLan8720&lt;/Value&gt;
           &lt;/String&gt;
         &lt;/Attributes&gt;
       &lt;/DirectDependency&gt;
@@ -5655,7 +5655,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvGmac&gt;
   &lt;drvGmac dnOrder=&quot;0&quot; id=&quot;DRV_ETH_PHY_TYPE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drvGmac&quot; value=&quot;LAN8740&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drvGmac&quot; value=&quot;LAN8720&quot;/&gt;
     &lt;/Values&gt;
   &lt;/drvGmac&gt;
 &lt;/drvGmac&gt;
@@ -13270,7 +13270,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\configuration.h</file>
-         <hash>f2f7906aceffb88a2661c4b175b054fd4823ea25ffdba08693661f474b9b67a1</hash>
+         <hash>8ee7991f1df8a073481100af802f42308d54b5ed481dba51ef5f6e9bd1555500</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\crypto\crypto.h</file>
@@ -13282,7 +13282,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\definitions.h</file>
-         <hash>6490ee7415755ebbeec5f38fe08775b1440f7420cf77f33659fd7ceb8789247e</hash>
+         <hash>cd437c5e251c29bf69c57148e3ecd534540ab1e7b3d821e641a27e9e477a7c81</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\device.h</file>
@@ -13317,12 +13317,12 @@
          <hash>c3526b1e112d3f4189045e3157b4c4544f4c117e8146011cf9a3f78ffa1e8cd2</hash>
       </entry>
       <entry>
-         <file>..\src\config\wbz653_curiosity\driver\ethphy\src\dynamic\drv_extphy_lan8740.c</file>
-         <hash>3eddd602bb9431178a01bb3bf265929f755cbf2c57ec77b4b07b35f891db6862</hash>
+         <file>..\src\config\wbz653_curiosity\driver\ethphy\src\dynamic\drv_extphy_lan8720.c</file>
+         <hash>e9877cfa527b8e26144c0b1a6e8f3f253a9ba68300b6fc9b2566b31d8090bc7b</hash>
       </entry>
       <entry>
-         <file>..\src\config\wbz653_curiosity\driver\ethphy\src\dynamic\drv_extphy_lan8740.h</file>
-         <hash>2a1f8c02be53aaf3b2ac8ffc58040d78d5b7e96bd71e3be134acbfd3504ff38d</hash>
+         <file>..\src\config\wbz653_curiosity\driver\ethphy\src\dynamic\drv_extphy_lan8720.h</file>
+         <hash>2f3d735b1da8a9f629f478cb665be1e1aee859fe51b6d85949fa7749422bcbbe</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\driver\ethphy\src\dynamic\drv_extphy_regs.h</file>
@@ -13382,7 +13382,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\initialization.c</file>
-         <hash>9bea81946929ee6d4f2fc591d6f7ff4248d102b43efe0f1e68bbca73d018ad19</hash>
+         <hash>5b15c14849c6086ce913675d8a7ba89b1fe512be6eb48b5a51c83688dba5291b</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz653_curiosity\interrupts.c</file>
