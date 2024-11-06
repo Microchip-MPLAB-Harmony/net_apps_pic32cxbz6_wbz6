@@ -18,7 +18,7 @@ modules:
     - {name: "csp", version: "v3.20.0-E1"}
     - {name: "CMSIS_5", version: "5.8.0"}
     - {name: "wolfssl", version: "v5.4.0"}
-    - {name: "net", version: "dev"}
+    - {name: "net", version: "v3.13.0-E1"}
     - {name: "bsp", version: "v3.21.0-E1"}
     - {name: "crypto", version: "v3.8.2"}
 
