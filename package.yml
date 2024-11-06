@@ -1,12 +1,24 @@
 package:
   format-version: "1.0.0"
-  name: "replaceme"
+  name: "net_apps_pic32cxbz6_wbz6"
   type: "application"
-  status: "beta"
+  status: "production"
   required: false
-  version: "1.0.0"
-
+  version: "v1.0.0-E1"
+  
   dependencies:
+    - name: "net"
+      type: "package"
+      version: "v3.13.0-E1"
+    - name: "core"
+      type: "package"
+      version: "v3.14.0-E1"
     - name: "csp"
       type: "package"
-      version: "3.14.0"
+      version: "v3.20.0-E1"
+    - name: "bsp"
+      type: "package"
+      version: "v3.21.0-E1"
+    - name: "crypto"
+      type: "package"
+      version: "v3.8.2"
