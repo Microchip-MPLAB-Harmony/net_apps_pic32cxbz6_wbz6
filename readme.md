@@ -1,7 +1,7 @@
 ﻿![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
 ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
 
-# MPLAB® Harmony 3 Network Application Examples for PIC32CX-BZ6 and WBZ653 Family
+# MPLAB® Harmony 3 Network Application Examples for PIC32CX-BZ6 / WBZ653 Family
 
 MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices.  Refer to the following links for more information.
 
@@ -11,7 +11,7 @@ MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded
 - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
 - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
-This repository contains the MPLAB® Harmony 3 Network Application Examples for PIC32CX-BZ6 and WBZ653 Family
+This repository contains the MPLAB® Harmony 3 Network Application Examples for PIC32CX-BZ6 / WBZ653 Family
 
 - [Release Notes](release_notes.md)
 - [MPLAB® Harmony License](Microchip_SLA001.md)

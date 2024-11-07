@@ -3,7 +3,7 @@
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
-## Network Application Examples for PIC32CX-BZ6 and WBZ653 Family, v1.0.0-E1
+## Network Application Examples for PIC32CX-BZ6 / WBZ653 Family, v1.0.0-E1
 
 ### New Features
 - Added demo applications for WBZ653 Curiosity Board.
